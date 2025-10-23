@@ -2,7 +2,6 @@
   "name": "tsv-tod",
   "version": "0.0.0",
   "type": "module",
-  "packageManager": "pnpm@10.14.0",
   "license": "MIT",
   "description": "TypeScript Vitest Test Order-dependency Detector",
   "repository": {
@@ -14,18 +13,18 @@
     "directory": "dist"
   },
   "scripts": {
-    "build": "tsup && pnpm copy-package-json",
+    "build": "tsup && bun run copy-package-json",
     "build:ts": "tsup",
     "dev": "bun run ./src/bin.js",
     "clean": "rimraf dist/*",
     "check": "tsc -b tsconfig.json",
     "lint": "eslint \"**/{src,test,examples,scripts,dtslint}/**/*.{ts,mjs}\"",
-    "lint-fix": "pnpm lint --fix",
+    "lint-fix": "bun run lint --fix",
     "test": "vitest run",
     "coverage": "vitest run --coverage",
-    "copy-package-json": "tsx scripts/copy-package-json.ts",
+    "copy-package-json": "bun run scripts/copy-package-json.ts",
     "changeset-version": "changeset version && node scripts/version.mjs",
-    "changeset-publish": "pnpm build && TEST_DIST= pnpm vitest && changeset publish"
+    "changeset-publish": "bun run build && TEST_DIST= bun run vitest && changeset publish"
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.5.0",
@@ -50,15 +49,9 @@
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "eslint-plugin-sort-destructure-keys": "^2.0.0",
     "tsup": "^8.2.4",
-    "tsx": "^4.19.1",
     "typescript": "^5.6.2",
     "vitest": "^3.2.0",
     "@types/bun": "latest"
-  },
-  "pnpm": {
-    "patchedDependencies": {
-      "@changesets/get-github-info@0.6.0": "patches/@changesets__get-github-info@0.6.0.patch"
-    }
   },
   "private": true
 }

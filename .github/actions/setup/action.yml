@@ -14,7 +14,6 @@ runs:
     - name: Install node
       uses: actions/setup-node@v4
       with:
-        cache: bun
         node-version: ${{ inputs.node-version }}
     - name: Install dependencies
       shell: bash

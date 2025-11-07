@@ -1,0 +1,1672 @@
+{
+  "project": "/Users/jeffz/Dev/vitest-projects/eidos",
+  "flakyTests": [],
+  "failedTests": [
+    {
+      "file": "/Users/jeffz/Dev/vitest-projects/eidos/packages/v3/compiler.test.ts",
+      "exitCode": 1,
+      "success": false,
+      "report": {
+        "done": true,
+        "order": "original",
+        "seed": 1762289117228,
+        "originalSuite": {
+          "type": "suite",
+          "name": "packages/v3/compiler.test.ts",
+          "taskGroups": [
+            {
+              "concurrent": false,
+              "tasks": [
+                {
+                  "type": "suite",
+                  "name": "compiler",
+                  "taskGroups": [
+                    {
+                      "concurrent": false,
+                      "tasks": [
+                        {
+                          "type": "suite",
+                          "name": "compileCode",
+                          "taskGroups": [
+                            {
+                              "concurrent": false,
+                              "tasks": [
+                                {
+                                  "type": "test",
+                                  "name": "should compile basic JSX without React import",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should compile TypeScript JSX",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should remove CSS imports",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should include uiLibCode when provided",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should handle complex JSX with props",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should handle TypeScript types and interfaces",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should handle React hooks",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should return error for invalid syntax",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should handle empty input",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should handle regular JavaScript without JSX",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should handle JSX fragments",
+                                  "state": "unknown"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "shuffledSuite": {
+          "type": "suite",
+          "name": "packages/v3/compiler.test.ts",
+          "taskGroups": [
+            {
+              "concurrent": false,
+              "tasks": [
+                {
+                  "type": "suite",
+                  "name": "compiler",
+                  "taskGroups": [
+                    {
+                      "concurrent": false,
+                      "tasks": [
+                        {
+                          "type": "suite",
+                          "name": "compileCode",
+                          "taskGroups": [
+                            {
+                              "concurrent": false,
+                              "tasks": [
+                                {
+                                  "type": "test",
+                                  "name": "should compile basic JSX without React import",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should compile TypeScript JSX",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should remove CSS imports",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should include uiLibCode when provided",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should handle complex JSX with props",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should handle TypeScript types and interfaces",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should handle React hooks",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should return error for invalid syntax",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should handle empty input",
+                                  "state": "fail"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should handle regular JavaScript without JSX",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should handle JSX fragments",
+                                  "state": "pass"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "stdout": "\n RUN  v2.1.9 /Users/jeffz/Dev/vitest-projects/eidos\n\nstdout | packages/v3/compiler.test.ts\n{\n  \"type\": \"suite\",\n  \"name\": \"packages/v3/compiler.test.ts\",\n  \"taskGroups\": [\n    {\n      \"concurrent\": false,\n      \"tasks\": [\n        {\n          \"type\": \"suite\",\n          \"name\": \"compiler\",\n          \"taskGroups\": [\n            {\n              \"concurrent\": false,\n              \"tasks\": [\n                {\n                  \"type\": \"suite\",\n                  \"name\": \"compileCode\",\n                  \"taskGroups\": [\n                    {\n                      \"concurrent\": false,\n                      \"tasks\": [\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should compile basic JSX without React import\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should compile TypeScript JSX\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should remove CSS imports\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should include uiLibCode when provided\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should handle complex JSX with props\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should handle TypeScript types and interfaces\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should handle React hooks\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should return error for invalid syntax\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should handle empty input\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should handle regular JavaScript without JSX\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should handle JSX fragments\",\n                          \"state\": \"unknown\"\n                        }\n                      ]\n                    }\n                  ]\n                }\n              ]\n            }\n          ]\n        }\n      ]\n    }\n  ]\n}\n\nstdout | packages/v3/compiler.test.ts > compiler > compileCode > should compile basic JSX without React import\nsourceWithLibs \n        function Component() {\n          return <div>Hello World</div>;\n        }\n      \nresult.code import { jsx as _jsx } from \"react/jsx-runtime\";\nfunction Component() {\n\treturn /* @__PURE__ */ _jsx(\"div\", { children: \"Hello World\" });\n}\n\n\nstdout | packages/v3/compiler.test.ts > compiler > compileCode > should compile TypeScript JSX\nsourceWithLibs \n        interface Props {\n          message: string;\n        }\n        \n        function Component({ message }: Props) {\n          return <div>{message}</div>;\n        }\n      \nresult.code import { jsx as _jsx } from \"react/jsx-runtime\";\nfunction Component({ message }) {\n\treturn /* @__PURE__ */ _jsx(\"div\", { children: message });\n}\n\n\nstdout | packages/v3/compiler.test.ts > compiler > compileCode > should remove CSS imports\nsourceWithLibs \n                        \n        function Component() {\n          return <div>Hello</div>;\n        }\n      \nresult.code import { jsx as _jsx } from \"react/jsx-runtime\";\nfunction Component() {\n\treturn /* @__PURE__ */ _jsx(\"div\", { children: \"Hello\" });\n}\n\n\nstdout | packages/v3/compiler.test.ts > compiler > compileCode > should include uiLibCode when provided\nsourceWithLibs \n        const Button = ({ children }) => <button>{children}</button>;\n      \n\n        function Component() {\n          return <Button>Click me</Button>;\n        }\n      \nresult.code import { jsx as _jsx } from \"react/jsx-runtime\";\nconst Button = ({ children }) => /* @__PURE__ */ _jsx(\"button\", { children });\nfunction Component() {\n\treturn /* @__PURE__ */ _jsx(Button, { children: \"Click me\" });\n}\n\n\nstdout | packages/v3/compiler.test.ts > compiler > compileCode > should handle complex JSX with props\nsourceWithLibs \n        function App() {\n          const items = ['a', 'b', 'c'];\n          return (\n            <div className=\"container\">\n              <h1 style={{ color: 'red' }}>Title</h1>\n              {items.map(item => (\n                <span key={item}>{item}</span>\n              ))}\n            </div>\n          );\n        }\n      \nresult.code import { jsx as _jsx, jsxs as _jsxs } from \"react/jsx-runtime\";\nfunction App() {\n\tconst items = [\n\t\t\"a\",\n\t\t\"b\",\n\t\t\"c\"\n\t];\n\treturn /* @__PURE__ */ _jsxs(\"div\", {\n\t\tclassName: \"container\",\n\t\tchildren: [/* @__PURE__ */ _jsx(\"h1\", {\n\t\t\tstyle: { color: \"red\" },\n\t\t\tchildren: \"Title\"\n\t\t}), items.map((item) => /* @__PURE__ */ _jsx(\"span\", { children: item }, item))]\n\t});\n}\n\n\nstdout | packages/v3/compiler.test.ts > compiler > compileCode > should handle TypeScript types and interfaces\nsourceWithLibs \n        type Color = 'red' | 'blue' | 'green';\n        \n        interface ButtonProps {\n          color: Color;\n          onClick: () => void;\n        }\n        \n        const Button: React.FC<ButtonProps> = ({ color, onClick }) => {\n          return <button style={{ color }} onClick={onClick}>Click</button>;\n        };\n      \nresult.code import { jsx as _jsx } from \"react/jsx-runtime\";\nconst Button = ({ color, onClick }) => {\n\treturn /* @__PURE__ */ _jsx(\"button\", {\n\t\tstyle: { color },\n\t\tonClick,\n\t\tchildren: \"Click\"\n\t});\n};\n\n\nstdout | packages/v3/compiler.test.ts > compiler > compileCode > should handle React hooks\nsourceWithLibs \n        import { useState, useEffect } from 'react';\n        \n        function Counter() {\n          const [count, setCount] = useState(0);\n          \n          useEffect(() => {\n            document.title = `Count: ${count}`;\n          }, [count]);\n          \n          return (\n            <button onClick={() => setCount(count + 1)}>\n              Count: {count}\n            </button>\n          );\n        }\n      \nresult.code import { useState, useEffect } from \"react\";\nimport { jsxs as _jsxs } from \"react/jsx-runtime\";\nfunction Counter() {\n\tconst [count, setCount] = useState(0);\n\tuseEffect(() => {\n\t\tdocument.title = `Count: ${count}`;\n\t}, [count]);\n\treturn /* @__PURE__ */ _jsxs(\"button\", {\n\t\tonClick: () => setCount(count + 1),\n\t\tchildren: [\"Count: \", count]\n\t});\n}\n\n\nstdout | packages/v3/compiler.test.ts > compiler > compileCode > should return error for invalid syntax\nsourceWithLibs \n        function Component() {\n          return <div>unclosed div\n        }\n      \n\nstdout | packages/v3/compiler.test.ts > compiler > compileCode > should handle empty input\nsourceWithLibs \nresult.code \n\nstdout | packages/v3/compiler.test.ts > compiler > compileCode > should handle regular JavaScript without JSX\nsourceWithLibs \n        function add(a, b) {\n          return a + b;\n        }\n        \n        const result = add(2, 3);\n        console.log(result);\n      \nresult.code function add(a, b) {\n\treturn a + b;\n}\nconst result = add(2, 3);\nconsole.log(result);\n\n\nstdout | packages/v3/compiler.test.ts > compiler > compileCode > should handle JSX fragments\nsourceWithLibs \n        function Component() {\n          return (\n            <>\n              <div>First</div>\n              <div>Second</div>\n            </>\n          );\n        }\n      \nresult.code import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from \"react/jsx-runtime\";\nfunction Component() {\n\treturn /* @__PURE__ */ _jsxs(_Fragment, { children: [/* @__PURE__ */ _jsx(\"div\", { children: \"First\" }), /* @__PURE__ */ _jsx(\"div\", { children: \"Second\" })] });\n}\n\n\n ❯ packages/v3/compiler.test.ts (11 tests | 1 failed) 8ms\n   × compiler > compileCode > should handle empty input 4ms\n     → expected '' to be truthy\n\n Test Files  1 failed (1)\n      Tests  1 failed | 10 passed (11)\n   Start at  14:45:14\n   Duration  3.24s (transform 76ms, setup 0ms, collect 160ms, tests 8ms, environment 339ms, prepare 1.52s)\n\n",
+      "stderr": "npm warn Unknown project config \"hoist\". This will stop working in the next major version of npm.\nnpm warn Unknown project config \"public-hoist-pattern\". This will stop working in the next major version of npm.\nnpm warn Unknown project config \"ignore-workspace-root-check\". This will stop working in the next major version of npm.\nnpm warn Unknown project config \"ignore-platform-for\". This will stop working in the next major version of npm.\n⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯\n\n FAIL  packages/v3/compiler.test.ts > compiler > compileCode > should handle empty input\nAssertionError: expected '' to be truthy\n\n- Expected: \ntrue\n\n+ Received: \n\"\"\n\n ❯ packages/v3/compiler.test.ts:154:27\n    152| \n    153|       expect(result.error).toBeNull();\n    154|       expect(result.code).toBeTruthy();\n       |                           ^\n    155|     });\n    156| \n\n⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯\n\n"
+    },
+    {
+      "file": "/Users/jeffz/Dev/vitest-projects/eidos/packages/v3/lexical-compiler.test.ts",
+      "exitCode": 1,
+      "success": false,
+      "report": {
+        "done": true,
+        "order": "original",
+        "seed": 1762289127809,
+        "originalSuite": {
+          "type": "suite",
+          "name": "packages/v3/lexical-compiler.test.ts",
+          "taskGroups": [
+            {
+              "concurrent": false,
+              "tasks": [
+                {
+                  "type": "suite",
+                  "name": "lexical-compiler",
+                  "taskGroups": [
+                    {
+                      "concurrent": false,
+                      "tasks": [
+                        {
+                          "type": "suite",
+                          "name": "compileLexicalCode",
+                          "taskGroups": [
+                            {
+                              "concurrent": false,
+                              "tasks": [
+                                {
+                                  "type": "test",
+                                  "name": "should transform named imports from lexical packages",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should transform default imports from lexical packages",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should handle mixed import types",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should handle multiple imports from the same package",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should return error for invalid code",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should not transform imports from non-lexical packages",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should preserve forward slashes in package imports",
+                                  "state": "unknown"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "shuffledSuite": {
+          "type": "suite",
+          "name": "packages/v3/lexical-compiler.test.ts",
+          "taskGroups": [
+            {
+              "concurrent": false,
+              "tasks": [
+                {
+                  "type": "suite",
+                  "name": "lexical-compiler",
+                  "taskGroups": [
+                    {
+                      "concurrent": false,
+                      "tasks": [
+                        {
+                          "type": "suite",
+                          "name": "compileLexicalCode",
+                          "taskGroups": [
+                            {
+                              "concurrent": false,
+                              "tasks": [
+                                {
+                                  "type": "test",
+                                  "name": "should transform named imports from lexical packages",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should transform default imports from lexical packages",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should handle mixed import types",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should handle multiple imports from the same package",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should return error for invalid code",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should not transform imports from non-lexical packages",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should preserve forward slashes in package imports",
+                                  "state": "fail"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "stdout": "\n RUN  v2.1.9 /Users/jeffz/Dev/vitest-projects/eidos\n\nstdout | packages/v3/lexical-compiler.test.ts\n{\n  \"type\": \"suite\",\n  \"name\": \"packages/v3/lexical-compiler.test.ts\",\n  \"taskGroups\": [\n    {\n      \"concurrent\": false,\n      \"tasks\": [\n        {\n          \"type\": \"suite\",\n          \"name\": \"lexical-compiler\",\n          \"taskGroups\": [\n            {\n              \"concurrent\": false,\n              \"tasks\": [\n                {\n                  \"type\": \"suite\",\n                  \"name\": \"compileLexicalCode\",\n                  \"taskGroups\": [\n                    {\n                      \"concurrent\": false,\n                      \"tasks\": [\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should transform named imports from lexical packages\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should transform default imports from lexical packages\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should handle mixed import types\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should handle multiple imports from the same package\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should return error for invalid code\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should not transform imports from non-lexical packages\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should preserve forward slashes in package imports\",\n                          \"state\": \"unknown\"\n                        }\n                      ]\n                    }\n                  ]\n                }\n              ]\n            }\n          ]\n        }\n      ]\n    }\n  ]\n}\n\n ❯ packages/v3/lexical-compiler.test.ts (7 tests | 1 failed) 7ms\n   × lexical-compiler > compileLexicalCode > should preserve forward slashes in package imports 4ms\n     → expected 'const { ComposerContext } = window[\"_…' to contain 'const { MarkdownShortcutPlugin } = wi…'\n\n Test Files  1 failed (1)\n      Tests  1 failed | 6 passed (7)\n   Start at  14:45:25\n   Duration  3.20s (transform 122ms, setup 0ms, collect 37ms, tests 7ms, environment 328ms, prepare 1.47s)\n\n",
+      "stderr": "npm warn Unknown project config \"hoist\". This will stop working in the next major version of npm.\nnpm warn Unknown project config \"public-hoist-pattern\". This will stop working in the next major version of npm.\nnpm warn Unknown project config \"ignore-workspace-root-check\". This will stop working in the next major version of npm.\nnpm warn Unknown project config \"ignore-platform-for\". This will stop working in the next major version of npm.\n⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯\n\n FAIL  packages/v3/lexical-compiler.test.ts > lexical-compiler > compileLexicalCode > should preserve forward slashes in package imports\nAssertionError: expected 'const { ComposerContext } = window[\"_…' to contain 'const { MarkdownShortcutPlugin } = wi…'\n\n- Expected\n+ Received\n\n- const { MarkdownShortcutPlugin } = window[\"__@LEXICAL/REACT/PLUGINS/MARKDOWNSHORTCUTPLUGIN\"]\n+ const { ComposerContext } = window[\"__@LEXICAL/REACT/LEXICALCOMPOSERCONTEXT\"];\n+ export {};\n+\n\n ❯ packages/v3/lexical-compiler.test.ts:93:33\n     91|             expect(result.error).toBeNull();\n     92|             expect(result.code).toContain('const { ComposerContext } =…\n     93|             expect(result.code).toContain('const { MarkdownShortcutPlu…\n       |                                 ^\n     94|         });\n     95|     });\n\n⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯\n\n"
+    },
+    {
+      "file": "/Users/jeffz/Dev/vitest-projects/eidos/packages/v3/script-compiler.test.ts",
+      "exitCode": 1,
+      "success": false,
+      "report": {
+        "done": true,
+        "order": "original",
+        "seed": 1762289132997,
+        "originalSuite": {
+          "type": "suite",
+          "name": "packages/v3/script-compiler.test.ts",
+          "taskGroups": [
+            {
+              "concurrent": false,
+              "tasks": [
+                {
+                  "type": "suite",
+                  "name": "script-compiler",
+                  "taskGroups": [
+                    {
+                      "concurrent": false,
+                      "tasks": [
+                        {
+                          "type": "suite",
+                          "name": "scriptCodeCompile",
+                          "taskGroups": [
+                            {
+                              "concurrent": false,
+                              "tasks": [
+                                {
+                                  "type": "test",
+                                  "name": "should compile basic TypeScript code",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should compile TypeScript with modern features",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should handle async/await syntax",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should handle decorators and metadata",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should throw error for invalid TypeScript",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should compile modern JavaScript features",
+                                  "state": "unknown"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "suite",
+                          "name": "getCompileMethodByScriptType",
+                          "taskGroups": [
+                            {
+                              "concurrent": false,
+                              "tasks": [
+                                {
+                                  "type": "test",
+                                  "name": "should return correct compile methods for different script types",
+                                  "state": "unknown"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "suite",
+                          "name": "getCompileMethod",
+                          "taskGroups": [
+                            {
+                              "concurrent": false,
+                              "tasks": [
+                                {
+                                  "type": "test",
+                                  "name": "should return compile method based on script object",
+                                  "state": "unknown"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "suite",
+                          "name": "compileScript",
+                          "taskGroups": [
+                            {
+                              "concurrent": false,
+                              "tasks": [
+                                {
+                                  "type": "test",
+                                  "name": "should compile script with ts_code",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should fallback to code when ts_code is empty",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should return empty string for unsupported script type",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should handle script without code",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should compile python script (no-op)",
+                                  "state": "unknown"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "shuffledSuite": {
+          "type": "suite",
+          "name": "packages/v3/script-compiler.test.ts",
+          "taskGroups": [
+            {
+              "concurrent": false,
+              "tasks": [
+                {
+                  "type": "suite",
+                  "name": "script-compiler",
+                  "taskGroups": [
+                    {
+                      "concurrent": false,
+                      "tasks": [
+                        {
+                          "type": "suite",
+                          "name": "scriptCodeCompile",
+                          "taskGroups": [
+                            {
+                              "concurrent": false,
+                              "tasks": [
+                                {
+                                  "type": "test",
+                                  "name": "should compile basic TypeScript code",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should compile TypeScript with modern features",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should handle async/await syntax",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should handle decorators and metadata",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should throw error for invalid TypeScript",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should compile modern JavaScript features",
+                                  "state": "pass"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "suite",
+                          "name": "getCompileMethodByScriptType",
+                          "taskGroups": [
+                            {
+                              "concurrent": false,
+                              "tasks": [
+                                {
+                                  "type": "test",
+                                  "name": "should return correct compile methods for different script types",
+                                  "state": "fail"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "suite",
+                          "name": "getCompileMethod",
+                          "taskGroups": [
+                            {
+                              "concurrent": false,
+                              "tasks": [
+                                {
+                                  "type": "test",
+                                  "name": "should return compile method based on script object",
+                                  "state": "fail"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "suite",
+                          "name": "compileScript",
+                          "taskGroups": [
+                            {
+                              "concurrent": false,
+                              "tasks": [
+                                {
+                                  "type": "test",
+                                  "name": "should compile script with ts_code",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should fallback to code when ts_code is empty",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should return empty string for unsupported script type",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should handle script without code",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should compile python script (no-op)",
+                                  "state": "pass"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "stdout": "\n RUN  v2.1.9 /Users/jeffz/Dev/vitest-projects/eidos\n\nstdout | packages/v3/script-compiler.test.ts\n{\n  \"type\": \"suite\",\n  \"name\": \"packages/v3/script-compiler.test.ts\",\n  \"taskGroups\": [\n    {\n      \"concurrent\": false,\n      \"tasks\": [\n        {\n          \"type\": \"suite\",\n          \"name\": \"script-compiler\",\n          \"taskGroups\": [\n            {\n              \"concurrent\": false,\n              \"tasks\": [\n                {\n                  \"type\": \"suite\",\n                  \"name\": \"scriptCodeCompile\",\n                  \"taskGroups\": [\n                    {\n                      \"concurrent\": false,\n                      \"tasks\": [\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should compile basic TypeScript code\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should compile TypeScript with modern features\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should handle async/await syntax\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should handle decorators and metadata\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should throw error for invalid TypeScript\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should compile modern JavaScript features\",\n                          \"state\": \"unknown\"\n                        }\n                      ]\n                    }\n                  ]\n                },\n                {\n                  \"type\": \"suite\",\n                  \"name\": \"getCompileMethodByScriptType\",\n                  \"taskGroups\": [\n                    {\n                      \"concurrent\": false,\n                      \"tasks\": [\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should return correct compile methods for different script types\",\n                          \"state\": \"unknown\"\n                        }\n                      ]\n                    }\n                  ]\n                },\n                {\n                  \"type\": \"suite\",\n                  \"name\": \"getCompileMethod\",\n                  \"taskGroups\": [\n                    {\n                      \"concurrent\": false,\n                      \"tasks\": [\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should return compile method based on script object\",\n                          \"state\": \"unknown\"\n                        }\n                      ]\n                    }\n                  ]\n                },\n                {\n                  \"type\": \"suite\",\n                  \"name\": \"compileScript\",\n                  \"taskGroups\": [\n                    {\n                      \"concurrent\": false,\n                      \"tasks\": [\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should compile script with ts_code\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should fallback to code when ts_code is empty\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should return empty string for unsupported script type\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should handle script without code\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should compile python script (no-op)\",\n                          \"state\": \"unknown\"\n                        }\n                      ]\n                    }\n                  ]\n                }\n              ]\n            }\n          ]\n        }\n      ]\n    }\n  ]\n}\n\n ❯ packages/v3/script-compiler.test.ts (13 tests | 2 failed) 5ms\n   × script-compiler > getCompileMethodByScriptType > should return correct compile methods for different script types 2ms\n     → expected undefined to be defined\n   × script-compiler > getCompileMethod > should return compile method based on script object 0ms\n     → expected undefined to be defined\n\n Test Files  1 failed (1)\n      Tests  2 failed | 11 passed (13)\n   Start at  14:45:30\n   Duration  3.19s (transform 287ms, setup 0ms, collect 50ms, tests 5ms, environment 323ms, prepare 806ms)\n\n",
+      "stderr": "npm warn Unknown project config \"hoist\". This will stop working in the next major version of npm.\nnpm warn Unknown project config \"public-hoist-pattern\". This will stop working in the next major version of npm.\nnpm warn Unknown project config \"ignore-workspace-root-check\". This will stop working in the next major version of npm.\nnpm warn Unknown project config \"ignore-platform-for\". This will stop working in the next major version of npm.\n⎯⎯⎯⎯⎯⎯⎯ Failed Tests 2 ⎯⎯⎯⎯⎯⎯⎯\n\n FAIL  packages/v3/script-compiler.test.ts > script-compiler > getCompileMethodByScriptType > should return correct compile methods for different script types\nAssertionError: expected undefined to be defined\n ❯ packages/v3/script-compiler.test.ts:137:57\n    135|       expect(getCompileMethodByScriptType('script')).toBe(scriptCodeCo…\n    136|       expect(getCompileMethodByScriptType('block')).toBeDefined(); // …\n    137|       expect(getCompileMethodByScriptType('py_script')).toBeDefined();…\n       |                                                         ^\n    138|       expect(getCompileMethodByScriptType('doc_plugin')).toBeDefined()…\n    139|       expect(getCompileMethodByScriptType('m_block')).toBeDefined(); /…\n\n⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/2]⎯\n\n FAIL  packages/v3/script-compiler.test.ts > script-compiler > getCompileMethod > should return compile method based on script object\nAssertionError: expected undefined to be defined\n ❯ packages/v3/script-compiler.test.ts:154:42\n    152|       expect(getCompileMethod(scriptScript)).toBe(scriptCodeCompile);\n    153|       expect(getCompileMethod(blockScript)).toBeDefined();\n    154|       expect(getCompileMethod(pyScript)).toBeDefined();\n       |                                          ^\n    155|       expect(getCompileMethod(docPlugin)).toBeDefined();\n    156|       expect(getCompileMethod(legacyBlockScript)).toBeDefined();\n\n⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/2]⎯\n\n"
+    },
+    {
+      "file": "/Users/jeffz/Dev/vitest-projects/eidos/packages/core/sdk/sql-data-view.test.ts",
+      "exitCode": 1,
+      "success": false,
+      "report": {
+        "done": true,
+        "order": "original",
+        "seed": 1762289143598,
+        "originalSuite": {
+          "type": "suite",
+          "name": "packages/core/sdk/sql-data-view.test.ts",
+          "taskGroups": [
+            {
+              "concurrent": false,
+              "tasks": [
+                {
+                  "type": "suite",
+                  "name": "SqlDataView",
+                  "taskGroups": [
+                    {
+                      "concurrent": false,
+                      "tasks": [
+                        {
+                          "type": "suite",
+                          "name": "createDataView",
+                          "taskGroups": [
+                            {
+                              "concurrent": false,
+                              "tasks": [
+                                {
+                                  "type": "test",
+                                  "name": "should create view with column metadata from comments",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should not create any column metadata when no comments are provided",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should handle mixed comments and non-commented columns",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should not create column metadata for temporary views",
+                                  "state": "unknown"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "shuffledSuite": {
+          "type": "suite",
+          "name": "packages/core/sdk/sql-data-view.test.ts",
+          "taskGroups": [
+            {
+              "concurrent": false,
+              "tasks": [
+                {
+                  "type": "suite",
+                  "name": "SqlDataView",
+                  "taskGroups": [
+                    {
+                      "concurrent": false,
+                      "tasks": [
+                        {
+                          "type": "suite",
+                          "name": "createDataView",
+                          "taskGroups": [
+                            {
+                              "concurrent": false,
+                              "tasks": [
+                                {
+                                  "type": "test",
+                                  "name": "should create view with column metadata from comments",
+                                  "state": "fail"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should not create any column metadata when no comments are provided",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should handle mixed comments and non-commented columns",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should not create column metadata for temporary views",
+                                  "state": "fail"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "stdout": "\n RUN  v2.1.9 /Users/jeffz/Dev/vitest-projects/eidos\n\nstdout | packages/core/sdk/sql-data-view.test.ts\n{\n  \"type\": \"suite\",\n  \"name\": \"packages/core/sdk/sql-data-view.test.ts\",\n  \"taskGroups\": [\n    {\n      \"concurrent\": false,\n      \"tasks\": [\n        {\n          \"type\": \"suite\",\n          \"name\": \"SqlDataView\",\n          \"taskGroups\": [\n            {\n              \"concurrent\": false,\n              \"tasks\": [\n                {\n                  \"type\": \"suite\",\n                  \"name\": \"createDataView\",\n                  \"taskGroups\": [\n                    {\n                      \"concurrent\": false,\n                      \"tasks\": [\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should create view with column metadata from comments\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should not create any column metadata when no comments are provided\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should handle mixed comments and non-commented columns\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should not create column metadata for temporary views\",\n                          \"state\": \"unknown\"\n                        }\n                      ]\n                    }\n                  ]\n                }\n              ]\n            }\n          ]\n        }\n      ]\n    }\n  ]\n}\n\n ❯ packages/core/sdk/sql-data-view.test.ts (4 tests | 2 failed) 27ms\n   × SqlDataView > createDataView > should create view with column metadata from comments 17ms\n     → expected \"spy\" to be called with arguments: [ StringContaining{…} ]\n\nReceived: \n\n  1st spy call:\n\n  Array [\n-   StringContaining \"CREATE VIEW IF NOT EXISTS vw_test-view-123\",\n+   \"DROP VIEW IF EXISTS vw_test-view-123;\",\n  ]\n\n  2nd spy call:\n\n  Array [\n-   StringContaining \"CREATE VIEW IF NOT EXISTS vw_test-view-123\",\n+   \"BEGIN TRANSACTION;\",\n  ]\n\n  3rd spy call:\n\n  Array [\n-   StringContaining \"CREATE VIEW IF NOT EXISTS vw_test-view-123\",\n+   \"CREATE  VIEW IF NOT EXISTS vw_test-view-123 AS \n+  \n+         -- [id:number]\n+         -- [name:text]\n+         -- [is_active:checkbox]\n+         -- [created_at:datetime]\n+         \n+         SELECT \n+           id,\n+           name,\n+           is_active,\n+           created_at\n+         FROM users\n+       ;\",\n  ]\n\n  4th spy call:\n\n  Array [\n-   StringContaining \"CREATE VIEW IF NOT EXISTS vw_test-view-123\",\n+   \"COMMIT;\",\n  ]\n\n\nNumber of calls: 4\n\n   × SqlDataView > createDataView > should not create column metadata for temporary views 1ms\n     → expected \"spy\" to not be called at all, but actually been called 1 times\n\nReceived: \n\n  1st spy call:\n\n    Array [\n      Object {\n        \"name\": \"id\",\n        \"property\": Object {},\n        \"table_column_name\": \"id\",\n        \"table_name\": \"vw_temp-view-123\",\n        \"type\": \"number\",\n      },\n    ]\n\n\nNumber of calls: 1\n\n\n Test Files  1 failed (1)\n      Tests  2 failed | 2 passed (4)\n   Start at  14:45:40\n   Duration  3.80s (transform 236ms, setup 0ms, collect 429ms, tests 27ms, environment 329ms, prepare 376ms)\n\n",
+      "stderr": "npm warn Unknown project config \"hoist\". This will stop working in the next major version of npm.\nnpm warn Unknown project config \"public-hoist-pattern\". This will stop working in the next major version of npm.\nnpm warn Unknown project config \"ignore-workspace-root-check\". This will stop working in the next major version of npm.\nnpm warn Unknown project config \"ignore-platform-for\". This will stop working in the next major version of npm.\nstderr | packages/core/sdk/sql-data-view.test.ts > SqlDataView > createDataView > should create view with column metadata from comments\nError creating column metadata from comments: TypeError: Cannot read properties of undefined (reading 'getDefaultFieldProperty')\n    at SqlDataView.createColumnMetadataFromComments (/Users/jeffz/Dev/vitest-projects/eidos/packages/core/sdk/sql-data-view.ts:169:69)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at SqlDataView.createDataView (/Users/jeffz/Dev/vitest-projects/eidos/packages/core/sdk/sql-data-view.ts:140:13)\n    at /Users/jeffz/Dev/vitest-projects/eidos/packages/core/sdk/sql-data-view.test.ts:62:7\n    at file:///Users/jeffz/Dev/vitest-projects/eidos/node_modules/.pnpm/@vitest+runner@2.1.9/node_modules/@vitest/runner/dist/index.js:533:5\n    at runTest (file:///Users/jeffz/Dev/vitest-projects/eidos/node_modules/.pnpm/@vitest+runner@2.1.9/node_modules/@vitest/runner/dist/index.js:1056:11)\n    at runSuite (file:///Users/jeffz/Dev/vitest-projects/eidos/node_modules/.pnpm/@vitest+runner@2.1.9/node_modules/@vitest/runner/dist/index.js:1205:15)\n    at runSuite (file:///Users/jeffz/Dev/vitest-projects/eidos/node_modules/.pnpm/@vitest+runner@2.1.9/node_modules/@vitest/runner/dist/index.js:1205:15)\n    at runSuite (file:///Users/jeffz/Dev/vitest-projects/eidos/node_modules/.pnpm/@vitest+runner@2.1.9/node_modules/@vitest/runner/dist/index.js:1205:15)\n    at runFiles (file:///Users/jeffz/Dev/vitest-projects/eidos/node_modules/.pnpm/@vitest+runner@2.1.9/node_modules/@vitest/runner/dist/index.js:1262:5)\n\n⎯⎯⎯⎯⎯⎯⎯ Failed Tests 2 ⎯⎯⎯⎯⎯⎯⎯\n\n FAIL  packages/core/sdk/sql-data-view.test.ts > SqlDataView > createDataView > should create view with column metadata from comments\nAssertionError: expected \"spy\" to be called with arguments: [ StringContaining{…} ]\n\nReceived: \n\n  1st spy call:\n\n  Array [\n-   StringContaining \"CREATE VIEW IF NOT EXISTS vw_test-view-123\",\n+   \"DROP VIEW IF EXISTS vw_test-view-123;\",\n  ]\n\n  2nd spy call:\n\n  Array [\n-   StringContaining \"CREATE VIEW IF NOT EXISTS vw_test-view-123\",\n+   \"BEGIN TRANSACTION;\",\n  ]\n\n  3rd spy call:\n\n  Array [\n-   StringContaining \"CREATE VIEW IF NOT EXISTS vw_test-view-123\",\n+   \"CREATE  VIEW IF NOT EXISTS vw_test-view-123 AS \n+  \n+         -- [id:number]\n+         -- [name:text]\n+         -- [is_active:checkbox]\n+         -- [created_at:datetime]\n+         \n+         SELECT \n+           id,\n+           name,\n+           is_active,\n+           created_at\n+         FROM users\n+       ;\",\n  ]\n\n  4th spy call:\n\n  Array [\n-   StringContaining \"CREATE VIEW IF NOT EXISTS vw_test-view-123\",\n+   \"COMMIT;\",\n  ]\n\n\nNumber of calls: 4\n\n ❯ packages/core/sdk/sql-data-view.test.ts:65:40\n     63| \n     64|       // Verify view creation\n     65|       expect(mockDataSpace.db.prepare).toHaveBeenCalledWith(\n       |                                        ^\n     66|         expect.stringContaining('CREATE VIEW IF NOT EXISTS vw_test-vie…\n     67|       )\n\n⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/2]⎯\n\n FAIL  packages/core/sdk/sql-data-view.test.ts > SqlDataView > createDataView > should not create column metadata for temporary views\nAssertionError: expected \"spy\" to not be called at all, but actually been called 1 times\n\nReceived: \n\n  1st spy call:\n\n    Array [\n      Object {\n        \"name\": \"id\",\n        \"property\": Object {},\n        \"table_column_name\": \"id\",\n        \"table_name\": \"vw_temp-view-123\",\n        \"type\": \"number\",\n      },\n    ]\n\n\nNumber of calls: 1\n\n ❯ packages/core/sdk/sql-data-view.test.ts:167:56\n    165| \n    166|       // Verify no column metadata is created for temp views\n    167|       expect(mockDataSpace.column.addPureUIColumn).not.toHaveBeenCalle…\n       |                                                        ^\n    168|     })\n    169|   })\n\n⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/2]⎯\n\n"
+    },
+    {
+      "file": "/Users/jeffz/Dev/vitest-projects/eidos/packages/core/sqlite/sql-aggregate-parser.test.ts",
+      "exitCode": 1,
+      "success": false,
+      "report": {
+        "done": true,
+        "order": "original",
+        "seed": 1762289159473,
+        "originalSuite": {
+          "type": "suite",
+          "name": "packages/core/sqlite/sql-aggregate-parser.test.ts",
+          "taskGroups": [
+            {
+              "concurrent": false,
+              "tasks": [
+                {
+                  "type": "suite",
+                  "name": "transformAggregateItems2SqlString",
+                  "taskGroups": [
+                    {
+                      "concurrent": false,
+                      "tasks": [
+                        {
+                          "type": "test",
+                          "name": "transforms aggregate items with group by columns",
+                          "state": "unknown"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "shuffledSuite": {
+          "type": "suite",
+          "name": "packages/core/sqlite/sql-aggregate-parser.test.ts",
+          "taskGroups": [
+            {
+              "concurrent": false,
+              "tasks": [
+                {
+                  "type": "suite",
+                  "name": "transformAggregateItems2SqlString",
+                  "taskGroups": [
+                    {
+                      "concurrent": false,
+                      "tasks": [
+                        {
+                          "type": "test",
+                          "name": "transforms aggregate items with group by columns",
+                          "state": "fail"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "stdout": "\n RUN  v2.1.9 /Users/jeffz/Dev/vitest-projects/eidos\n\nstdout | packages/core/sqlite/sql-aggregate-parser.test.ts\n{\n  \"type\": \"suite\",\n  \"name\": \"packages/core/sqlite/sql-aggregate-parser.test.ts\",\n  \"taskGroups\": [\n    {\n      \"concurrent\": false,\n      \"tasks\": [\n        {\n          \"type\": \"suite\",\n          \"name\": \"transformAggregateItems2SqlString\",\n          \"taskGroups\": [\n            {\n              \"concurrent\": false,\n              \"tasks\": [\n                {\n                  \"type\": \"test\",\n                  \"name\": \"transforms aggregate items with group by columns\",\n                  \"state\": \"unknown\"\n                }\n              ]\n            }\n          ]\n        }\n      ]\n    }\n  ]\n}\n\n ❯ packages/core/sqlite/sql-aggregate-parser.test.ts (1 test | 1 failed) 17ms\n   × transformAggregateItems2SqlString > transforms aggregate items with group by columns 16ms\n     → expected 'SELECT department , (\"SUM\" (salary) )…' to match /SUM\\s*\\(\\s*salary\\s*\\)/i\n\n Test Files  1 failed (1)\n      Tests  1 failed (1)\n   Start at  14:45:56\n   Duration  3.20s (transform 72ms, setup 0ms, collect 43ms, tests 17ms, environment 312ms, prepare 1.70s)\n\n",
+      "stderr": "npm warn Unknown project config \"hoist\". This will stop working in the next major version of npm.\nnpm warn Unknown project config \"public-hoist-pattern\". This will stop working in the next major version of npm.\nnpm warn Unknown project config \"ignore-workspace-root-check\". This will stop working in the next major version of npm.\nnpm warn Unknown project config \"ignore-platform-for\". This will stop working in the next major version of npm.\n⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯\n\n FAIL  packages/core/sqlite/sql-aggregate-parser.test.ts > transformAggregateItems2SqlString > transforms aggregate items with group by columns\nAssertionError: expected 'SELECT department , (\"SUM\" (salary) )…' to match /SUM\\s*\\(\\s*salary\\s*\\)/i\n\n- Expected: \n/SUM\\s*\\(\\s*salary\\s*\\)/i\n\n+ Received: \n\"SELECT department , (\\\"SUM\\\" (salary) ) AS total_salary , (\\\"COUNT\\\" (id) ) AS employee_count  FROM employees   GROUP BY department\"\n\n ❯ packages/core/sqlite/sql-aggregate-parser.test.ts:15:20\n     13| \n     14|     // Check that the result contains aggregate expressions and the gr…\n     15|     expect(result).toMatch(/SUM\\s*\\(\\s*salary\\s*\\)/i);\n       |                    ^\n     16|     expect(result).toMatch(/COUNT\\s*\\(\\s*id\\s*\\)/i);\n     17|     expect(result).toMatch(/AS\\s+total_salary/i);\n\n⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯\n\n"
+    },
+    {
+      "file": "/Users/jeffz/Dev/vitest-projects/eidos/packages/code-editor/src/plugins/esm-import-resolver/services/__tests__/import-parser.test.ts",
+      "exitCode": 1,
+      "success": false,
+      "report": {
+        "done": true,
+        "order": "original",
+        "seed": 1762289237289,
+        "originalSuite": {
+          "type": "suite",
+          "name": "packages/code-editor/src/plugins/esm-import-resolver/services/__tests__/import-parser.test.ts",
+          "taskGroups": [
+            {
+              "concurrent": false,
+              "tasks": [
+                {
+                  "type": "suite",
+                  "name": "ImportParser",
+                  "taskGroups": [
+                    {
+                      "concurrent": false,
+                      "tasks": [
+                        {
+                          "type": "suite",
+                          "name": "parseImports",
+                          "taskGroups": [
+                            {
+                              "concurrent": false,
+                              "tasks": [
+                                {
+                                  "type": "test",
+                                  "name": "should parse standard ES6 imports",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should handle relative imports",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should handle Node.js builtin modules",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should handle scoped packages",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should handle internal path mappings",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should handle empty or invalid code gracefully",
+                                  "state": "unknown"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "suite",
+                          "name": "resolveImportUrl",
+                          "taskGroups": [
+                            {
+                              "concurrent": false,
+                              "tasks": [
+                                {
+                                  "type": "test",
+                                  "name": "should resolve third-party packages to esm.sh URLs",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should resolve Node.js builtins to esm.sh URLs",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should leave relative imports unchanged",
+                                  "state": "unknown"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "suite",
+                          "name": "isThirdPartyPackage",
+                          "taskGroups": [
+                            {
+                              "concurrent": false,
+                              "tasks": [
+                                {
+                                  "type": "test",
+                                  "name": "should identify third-party packages correctly",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should not identify relative imports as third-party",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should not identify Node.js builtins as third-party",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should not identify empty strings as third-party",
+                                  "state": "unknown"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "suite",
+                          "name": "isNodeBuiltin",
+                          "taskGroups": [
+                            {
+                              "concurrent": false,
+                              "tasks": [
+                                {
+                                  "type": "test",
+                                  "name": "should identify Node.js builtin modules",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should handle node: prefix",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should not identify third-party packages as builtins",
+                                  "state": "unknown"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "suite",
+                          "name": "isRelativeImport",
+                          "taskGroups": [
+                            {
+                              "concurrent": false,
+                              "tasks": [
+                                {
+                                  "type": "test",
+                                  "name": "should identify relative imports",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should not identify absolute or package imports as relative",
+                                  "state": "unknown"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "suite",
+                          "name": "extractPackageName",
+                          "taskGroups": [
+                            {
+                              "concurrent": false,
+                              "tasks": [
+                                {
+                                  "type": "test",
+                                  "name": "should extract package names from simple imports",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should extract package names from scoped packages",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should extract package names from subpath imports",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should handle version specifications",
+                                  "state": "unknown"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "suite",
+                          "name": "extractVersion",
+                          "taskGroups": [
+                            {
+                              "concurrent": false,
+                              "tasks": [
+                                {
+                                  "type": "test",
+                                  "name": "should extract versions when specified",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should return undefined when no version specified",
+                                  "state": "unknown"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "shuffledSuite": {
+          "type": "suite",
+          "name": "packages/code-editor/src/plugins/esm-import-resolver/services/__tests__/import-parser.test.ts",
+          "taskGroups": [
+            {
+              "concurrent": false,
+              "tasks": [
+                {
+                  "type": "suite",
+                  "name": "ImportParser",
+                  "taskGroups": [
+                    {
+                      "concurrent": false,
+                      "tasks": [
+                        {
+                          "type": "suite",
+                          "name": "parseImports",
+                          "taskGroups": [
+                            {
+                              "concurrent": false,
+                              "tasks": [
+                                {
+                                  "type": "test",
+                                  "name": "should parse standard ES6 imports",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should handle relative imports",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should handle Node.js builtin modules",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should handle scoped packages",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should handle internal path mappings",
+                                  "state": "fail"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should handle empty or invalid code gracefully",
+                                  "state": "pass"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "suite",
+                          "name": "resolveImportUrl",
+                          "taskGroups": [
+                            {
+                              "concurrent": false,
+                              "tasks": [
+                                {
+                                  "type": "test",
+                                  "name": "should resolve third-party packages to esm.sh URLs",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should resolve Node.js builtins to esm.sh URLs",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should leave relative imports unchanged",
+                                  "state": "pass"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "suite",
+                          "name": "isThirdPartyPackage",
+                          "taskGroups": [
+                            {
+                              "concurrent": false,
+                              "tasks": [
+                                {
+                                  "type": "test",
+                                  "name": "should identify third-party packages correctly",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should not identify relative imports as third-party",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should not identify Node.js builtins as third-party",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should not identify empty strings as third-party",
+                                  "state": "pass"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "suite",
+                          "name": "isNodeBuiltin",
+                          "taskGroups": [
+                            {
+                              "concurrent": false,
+                              "tasks": [
+                                {
+                                  "type": "test",
+                                  "name": "should identify Node.js builtin modules",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should handle node: prefix",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should not identify third-party packages as builtins",
+                                  "state": "pass"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "suite",
+                          "name": "isRelativeImport",
+                          "taskGroups": [
+                            {
+                              "concurrent": false,
+                              "tasks": [
+                                {
+                                  "type": "test",
+                                  "name": "should identify relative imports",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should not identify absolute or package imports as relative",
+                                  "state": "pass"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "suite",
+                          "name": "extractPackageName",
+                          "taskGroups": [
+                            {
+                              "concurrent": false,
+                              "tasks": [
+                                {
+                                  "type": "test",
+                                  "name": "should extract package names from simple imports",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should extract package names from scoped packages",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should extract package names from subpath imports",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should handle version specifications",
+                                  "state": "pass"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "suite",
+                          "name": "extractVersion",
+                          "taskGroups": [
+                            {
+                              "concurrent": false,
+                              "tasks": [
+                                {
+                                  "type": "test",
+                                  "name": "should extract versions when specified",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should return undefined when no version specified",
+                                  "state": "pass"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "stdout": "\n RUN  v2.1.9 /Users/jeffz/Dev/vitest-projects/eidos\n\nstdout | packages/code-editor/src/plugins/esm-import-resolver/services/__tests__/import-parser.test.ts\n{\n  \"type\": \"suite\",\n  \"name\": \"packages/code-editor/src/plugins/esm-import-resolver/services/__tests__/import-parser.test.ts\",\n  \"taskGroups\": [\n    {\n      \"concurrent\": false,\n      \"tasks\": [\n        {\n          \"type\": \"suite\",\n          \"name\": \"ImportParser\",\n          \"taskGroups\": [\n            {\n              \"concurrent\": false,\n              \"tasks\": [\n                {\n                  \"type\": \"suite\",\n                  \"name\": \"parseImports\",\n                  \"taskGroups\": [\n                    {\n                      \"concurrent\": false,\n                      \"tasks\": [\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should parse standard ES6 imports\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should handle relative imports\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should handle Node.js builtin modules\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should handle scoped packages\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should handle internal path mappings\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should handle empty or invalid code gracefully\",\n                          \"state\": \"unknown\"\n                        }\n                      ]\n                    }\n                  ]\n                },\n                {\n                  \"type\": \"suite\",\n                  \"name\": \"resolveImportUrl\",\n                  \"taskGroups\": [\n                    {\n                      \"concurrent\": false,\n                      \"tasks\": [\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should resolve third-party packages to esm.sh URLs\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should resolve Node.js builtins to esm.sh URLs\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should leave relative imports unchanged\",\n                          \"state\": \"unknown\"\n                        }\n                      ]\n                    }\n                  ]\n                },\n                {\n                  \"type\": \"suite\",\n                  \"name\": \"isThirdPartyPackage\",\n                  \"taskGroups\": [\n                    {\n                      \"concurrent\": false,\n                      \"tasks\": [\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should identify third-party packages correctly\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should not identify relative imports as third-party\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should not identify Node.js builtins as third-party\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should not identify empty strings as third-party\",\n                          \"state\": \"unknown\"\n                        }\n                      ]\n                    }\n                  ]\n                },\n                {\n                  \"type\": \"suite\",\n                  \"name\": \"isNodeBuiltin\",\n                  \"taskGroups\": [\n                    {\n                      \"concurrent\": false,\n                      \"tasks\": [\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should identify Node.js builtin modules\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should handle node: prefix\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should not identify third-party packages as builtins\",\n                          \"state\": \"unknown\"\n                        }\n                      ]\n                    }\n                  ]\n                },\n                {\n                  \"type\": \"suite\",\n                  \"name\": \"isRelativeImport\",\n                  \"taskGroups\": [\n                    {\n                      \"concurrent\": false,\n                      \"tasks\": [\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should identify relative imports\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should not identify absolute or package imports as relative\",\n                          \"state\": \"unknown\"\n                        }\n                      ]\n                    }\n                  ]\n                },\n                {\n                  \"type\": \"suite\",\n                  \"name\": \"extractPackageName\",\n                  \"taskGroups\": [\n                    {\n                      \"concurrent\": false,\n                      \"tasks\": [\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should extract package names from simple imports\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should extract package names from scoped packages\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should extract package names from subpath imports\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should handle version specifications\",\n                          \"state\": \"unknown\"\n                        }\n                      ]\n                    }\n                  ]\n                },\n                {\n                  \"type\": \"suite\",\n                  \"name\": \"extractVersion\",\n                  \"taskGroups\": [\n                    {\n                      \"concurrent\": false,\n                      \"tasks\": [\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should extract versions when specified\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should return undefined when no version specified\",\n                          \"state\": \"unknown\"\n                        }\n                      ]\n                    }\n                  ]\n                }\n              ]\n            }\n          ]\n        }\n      ]\n    }\n  ]\n}\n\n ❯ packages/code-editor/src/plugins/esm-import-resolver/services/__tests__/import-parser.test.ts (24 tests | 1 failed) 7ms\n   × ImportParser > parseImports > should handle internal path mappings 3ms\n     → expected true to be false // Object.is equality\n\n Test Files  1 failed (1)\n      Tests  1 failed | 23 passed (24)\n   Start at  14:47:14\n   Duration  2.97s (transform 154ms, setup 0ms, collect 109ms, tests 7ms, environment 296ms, prepare 664ms)\n\n",
+      "stderr": "npm warn Unknown project config \"hoist\". This will stop working in the next major version of npm.\nnpm warn Unknown project config \"public-hoist-pattern\". This will stop working in the next major version of npm.\nnpm warn Unknown project config \"ignore-workspace-root-check\". This will stop working in the next major version of npm.\nnpm warn Unknown project config \"ignore-platform-for\". This will stop working in the next major version of npm.\n⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯\n\n FAIL  packages/code-editor/src/plugins/esm-import-resolver/services/__tests__/import-parser.test.ts > ImportParser > parseImports > should handle internal path mappings\nAssertionError: expected true to be false // Object.is equality\n\n- Expected\n+ Received\n\n- false\n+ true\n\n ❯ packages/code-editor/src/plugins/esm-import-resolver/services/__tests__/import-parser.test.ts:108:34\n    106|       expect(imports).toHaveLength(4)\n    107|       imports.forEach(imp => {\n    108|         expect(imp.isThirdParty).toBe(false) // Should NOT be consider…\n       |                                  ^\n    109|       })\n    110|     })\n ❯ packages/code-editor/src/plugins/esm-import-resolver/services/__tests__/import-parser.test.ts:107:15\n\n⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯\n\n"
+    },
+    {
+      "file": "/Users/jeffz/Dev/vitest-projects/eidos/packages/code-editor/src/plugins/esm-import-resolver/services/__tests__/type-definition.test.ts",
+      "exitCode": 1,
+      "success": false,
+      "report": {
+        "done": true,
+        "order": "original",
+        "seed": 1762289242021,
+        "originalSuite": {
+          "type": "suite",
+          "name": "packages/code-editor/src/plugins/esm-import-resolver/services/__tests__/type-definition.test.ts",
+          "taskGroups": [
+            {
+              "concurrent": false,
+              "tasks": [
+                {
+                  "type": "suite",
+                  "name": "TypeHttpClientImpl",
+                  "taskGroups": [
+                    {
+                      "concurrent": false,
+                      "tasks": [
+                        {
+                          "type": "suite",
+                          "name": "fetch",
+                          "taskGroups": [
+                            {
+                              "concurrent": false,
+                              "tasks": [
+                                {
+                                  "type": "test",
+                                  "name": "should fetch type definitions successfully",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should handle fetch timeout",
+                                  "state": "unknown"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "suite",
+                          "name": "head",
+                          "taskGroups": [
+                            {
+                              "concurrent": false,
+                              "tasks": [
+                                {
+                                  "type": "test",
+                                  "name": "should check if resource exists",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should return false for non-existent resources",
+                                  "state": "unknown"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "suite",
+                  "name": "TypeDefinitionManager",
+                  "taskGroups": [
+                    {
+                      "concurrent": false,
+                      "tasks": [
+                        {
+                          "type": "suite",
+                          "name": "fetchTypes",
+                          "taskGroups": [
+                            {
+                              "concurrent": false,
+                              "tasks": [
+                                {
+                                  "type": "test",
+                                  "name": "should fetch and cache type definitions",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should return cached types on subsequent calls",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should handle packages without type definitions",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should retry on failure with exponential backoff",
+                                  "state": "unknown"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "suite",
+                          "name": "cache management",
+                          "taskGroups": [
+                            {
+                              "concurrent": false,
+                              "tasks": [
+                                {
+                                  "type": "test",
+                                  "name": "should clear cache correctly",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should handle expired cache entries",
+                                  "state": "unknown"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "suite",
+                          "name": "hasTypes",
+                          "taskGroups": [
+                            {
+                              "concurrent": false,
+                              "tasks": [
+                                {
+                                  "type": "test",
+                                  "name": "should return true for cached types",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should check remote availability for uncached packages",
+                                  "state": "unknown"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "suite",
+                          "name": "prefetchTypes",
+                          "taskGroups": [
+                            {
+                              "concurrent": false,
+                              "tasks": [
+                                {
+                                  "type": "test",
+                                  "name": "should prefetch multiple packages",
+                                  "state": "unknown"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "suite",
+                          "name": "validation",
+                          "taskGroups": [
+                            {
+                              "concurrent": false,
+                              "tasks": [
+                                {
+                                  "type": "test",
+                                  "name": "should skip empty package URLs",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should skip whitespace-only package URLs",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should skip relative file paths",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should skip absolute file paths",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should skip local file extensions",
+                                  "state": "unknown"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should process valid package URLs",
+                                  "state": "unknown"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "shuffledSuite": {
+          "type": "suite",
+          "name": "packages/code-editor/src/plugins/esm-import-resolver/services/__tests__/type-definition.test.ts",
+          "taskGroups": [
+            {
+              "concurrent": false,
+              "tasks": [
+                {
+                  "type": "suite",
+                  "name": "TypeHttpClientImpl",
+                  "taskGroups": [
+                    {
+                      "concurrent": false,
+                      "tasks": [
+                        {
+                          "type": "suite",
+                          "name": "fetch",
+                          "taskGroups": [
+                            {
+                              "concurrent": false,
+                              "tasks": [
+                                {
+                                  "type": "test",
+                                  "name": "should fetch type definitions successfully",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should handle fetch timeout",
+                                  "state": "pass"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "suite",
+                          "name": "head",
+                          "taskGroups": [
+                            {
+                              "concurrent": false,
+                              "tasks": [
+                                {
+                                  "type": "test",
+                                  "name": "should check if resource exists",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should return false for non-existent resources",
+                                  "state": "pass"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "suite",
+                  "name": "TypeDefinitionManager",
+                  "taskGroups": [
+                    {
+                      "concurrent": false,
+                      "tasks": [
+                        {
+                          "type": "suite",
+                          "name": "fetchTypes",
+                          "taskGroups": [
+                            {
+                              "concurrent": false,
+                              "tasks": [
+                                {
+                                  "type": "test",
+                                  "name": "should fetch and cache type definitions",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should return cached types on subsequent calls",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should handle packages without type definitions",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should retry on failure with exponential backoff",
+                                  "state": "pass"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "suite",
+                          "name": "cache management",
+                          "taskGroups": [
+                            {
+                              "concurrent": false,
+                              "tasks": [
+                                {
+                                  "type": "test",
+                                  "name": "should clear cache correctly",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should handle expired cache entries",
+                                  "state": "pass"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "suite",
+                          "name": "hasTypes",
+                          "taskGroups": [
+                            {
+                              "concurrent": false,
+                              "tasks": [
+                                {
+                                  "type": "test",
+                                  "name": "should return true for cached types",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should check remote availability for uncached packages",
+                                  "state": "pass"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "suite",
+                          "name": "prefetchTypes",
+                          "taskGroups": [
+                            {
+                              "concurrent": false,
+                              "tasks": [
+                                {
+                                  "type": "test",
+                                  "name": "should prefetch multiple packages",
+                                  "state": "fail"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "suite",
+                          "name": "validation",
+                          "taskGroups": [
+                            {
+                              "concurrent": false,
+                              "tasks": [
+                                {
+                                  "type": "test",
+                                  "name": "should skip empty package URLs",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should skip whitespace-only package URLs",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should skip relative file paths",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should skip absolute file paths",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should skip local file extensions",
+                                  "state": "pass"
+                                },
+                                {
+                                  "type": "test",
+                                  "name": "should process valid package URLs",
+                                  "state": "pass"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "stdout": "\n RUN  v2.1.9 /Users/jeffz/Dev/vitest-projects/eidos\n\nstdout | packages/code-editor/src/plugins/esm-import-resolver/services/__tests__/type-definition.test.ts\n{\n  \"type\": \"suite\",\n  \"name\": \"packages/code-editor/src/plugins/esm-import-resolver/services/__tests__/type-definition.test.ts\",\n  \"taskGroups\": [\n    {\n      \"concurrent\": false,\n      \"tasks\": [\n        {\n          \"type\": \"suite\",\n          \"name\": \"TypeHttpClientImpl\",\n          \"taskGroups\": [\n            {\n              \"concurrent\": false,\n              \"tasks\": [\n                {\n                  \"type\": \"suite\",\n                  \"name\": \"fetch\",\n                  \"taskGroups\": [\n                    {\n                      \"concurrent\": false,\n                      \"tasks\": [\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should fetch type definitions successfully\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should handle fetch timeout\",\n                          \"state\": \"unknown\"\n                        }\n                      ]\n                    }\n                  ]\n                },\n                {\n                  \"type\": \"suite\",\n                  \"name\": \"head\",\n                  \"taskGroups\": [\n                    {\n                      \"concurrent\": false,\n                      \"tasks\": [\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should check if resource exists\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should return false for non-existent resources\",\n                          \"state\": \"unknown\"\n                        }\n                      ]\n                    }\n                  ]\n                }\n              ]\n            }\n          ]\n        },\n        {\n          \"type\": \"suite\",\n          \"name\": \"TypeDefinitionManager\",\n          \"taskGroups\": [\n            {\n              \"concurrent\": false,\n              \"tasks\": [\n                {\n                  \"type\": \"suite\",\n                  \"name\": \"fetchTypes\",\n                  \"taskGroups\": [\n                    {\n                      \"concurrent\": false,\n                      \"tasks\": [\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should fetch and cache type definitions\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should return cached types on subsequent calls\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should handle packages without type definitions\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should retry on failure with exponential backoff\",\n                          \"state\": \"unknown\"\n                        }\n                      ]\n                    }\n                  ]\n                },\n                {\n                  \"type\": \"suite\",\n                  \"name\": \"cache management\",\n                  \"taskGroups\": [\n                    {\n                      \"concurrent\": false,\n                      \"tasks\": [\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should clear cache correctly\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should handle expired cache entries\",\n                          \"state\": \"unknown\"\n                        }\n                      ]\n                    }\n                  ]\n                },\n                {\n                  \"type\": \"suite\",\n                  \"name\": \"hasTypes\",\n                  \"taskGroups\": [\n                    {\n                      \"concurrent\": false,\n                      \"tasks\": [\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should return true for cached types\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should check remote availability for uncached packages\",\n                          \"state\": \"unknown\"\n                        }\n                      ]\n                    }\n                  ]\n                },\n                {\n                  \"type\": \"suite\",\n                  \"name\": \"prefetchTypes\",\n                  \"taskGroups\": [\n                    {\n                      \"concurrent\": false,\n                      \"tasks\": [\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should prefetch multiple packages\",\n                          \"state\": \"unknown\"\n                        }\n                      ]\n                    }\n                  ]\n                },\n                {\n                  \"type\": \"suite\",\n                  \"name\": \"validation\",\n                  \"taskGroups\": [\n                    {\n                      \"concurrent\": false,\n                      \"tasks\": [\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should skip empty package URLs\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should skip whitespace-only package URLs\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should skip relative file paths\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should skip absolute file paths\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should skip local file extensions\",\n                          \"state\": \"unknown\"\n                        },\n                        {\n                          \"type\": \"test\",\n                          \"name\": \"should process valid package URLs\",\n                          \"state\": \"unknown\"\n                        }\n                      ]\n                    }\n                  ]\n                }\n              ]\n            }\n          ]\n        }\n      ]\n    }\n  ]\n}\n\nstdout | packages/code-editor/src/plugins/esm-import-resolver/services/__tests__/type-definition.test.ts > TypeDefinitionManager > fetchTypes > should fetch and cache type definitions\n🔍 Attempting to fetch types for: https://esm.sh/react\n🔄 Attempt 1/3 for https://esm.sh/react\n🔍 Resolving type URL for: https://esm.sh/react\n📝 Found X-TypeScript-Types header: https://esm.sh/@types/react/index.d.ts\n🔍 Fetching types from: https://esm.sh/@types/react/index.d.ts\n✅ Successfully fetched types from https://esm.sh/@types/react/index.d.ts\n✅ Successfully fetched types for react\n\nstdout | packages/code-editor/src/plugins/esm-import-resolver/services/__tests__/type-definition.test.ts > TypeDefinitionManager > fetchTypes > should return cached types on subsequent calls\n🔍 Attempting to fetch types for: https://esm.sh/react\n🔄 Attempt 1/3 for https://esm.sh/react\n🔍 Resolving type URL for: https://esm.sh/react\n📝 Found X-TypeScript-Types header: https://esm.sh/@types/react/index.d.ts\n🔍 Fetching types from: https://esm.sh/@types/react/index.d.ts\n✅ Successfully fetched types from https://esm.sh/@types/react/index.d.ts\n✅ Successfully fetched types for react\n\nstdout | packages/code-editor/src/plugins/esm-import-resolver/services/__tests__/type-definition.test.ts > TypeDefinitionManager > fetchTypes > should handle packages without type definitions\n🔍 Attempting to fetch types for: https://esm.sh/some-package\n🔄 Attempt 1/3 for https://esm.sh/some-package\n🔍 Resolving type URL for: https://esm.sh/some-package\n🔄 Trying common type patterns for: https://esm.sh/some-package\n🔍 Trying common patterns for package: some-package\n📝 Trying DefinitelyTyped pattern: https://esm.sh/@types/some-package?dts\n🔍 Fetching types from: https://esm.sh/@types/some-package?dts\n❌ Attempt 1 failed for https://esm.sh/some-package: Error: No mock response for https://esm.sh/@types/some-package?dts\n    at MockHttpClient.fetch (/Users/jeffz/Dev/vitest-projects/eidos/packages/code-editor/src/plugins/esm-import-resolver/services/__tests__/type-definition.test.ts:21:13)\n    at TypeDefinitionManager.fetchTypesWithRetry (/Users/jeffz/Dev/vitest-projects/eidos/packages/code-editor/src/plugins/esm-import-resolver/services/type-definition.ts:460:48)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at TypeDefinitionManager.fetchTypes (/Users/jeffz/Dev/vitest-projects/eidos/packages/code-editor/src/plugins/esm-import-resolver/services/type-definition.ts:145:30)\n    at /Users/jeffz/Dev/vitest-projects/eidos/packages/code-editor/src/plugins/esm-import-resolver/services/__tests__/type-definition.test.ts:188:22\n    at file:///Users/jeffz/Dev/vitest-projects/eidos/node_modules/.pnpm/@vitest+runner@2.1.9/node_modules/@vitest/runner/dist/index.js:533:5\n    at runTest (file:///Users/jeffz/Dev/vitest-projects/eidos/node_modules/.pnpm/@vitest+runner@2.1.9/node_modules/@vitest/runner/dist/index.js:1056:11)\n    at runSuite (file:///Users/jeffz/Dev/vitest-projects/eidos/node_modules/.pnpm/@vitest+runner@2.1.9/node_modules/@vitest/runner/dist/index.js:1205:15)\n    at runSuite (file:///Users/jeffz/Dev/vitest-projects/eidos/node_modules/.pnpm/@vitest+runner@2.1.9/node_modules/@vitest/runner/dist/index.js:1205:15)\n    at runSuite (file:///Users/jeffz/Dev/vitest-projects/eidos/node_modules/.pnpm/@vitest+runner@2.1.9/node_modules/@vitest/runner/dist/index.js:1205:15)\n⏳ Waiting 1000ms before retry...\n\nstdout | packages/code-editor/src/plugins/esm-import-resolver/services/__tests__/type-definition.test.ts > TypeDefinitionManager > fetchTypes > should handle packages without type definitions\n🔄 Attempt 2/3 for https://esm.sh/some-package\n🔍 Resolving type URL for: https://esm.sh/some-package\n🔄 Trying common type patterns for: https://esm.sh/some-package\n🔍 Trying common patterns for package: some-package\n📝 Trying DefinitelyTyped pattern: https://esm.sh/@types/some-package?dts\n🔍 Fetching types from: https://esm.sh/@types/some-package?dts\n❌ Attempt 2 failed for https://esm.sh/some-package: Error: No mock response for https://esm.sh/@types/some-package?dts\n    at MockHttpClient.fetch (/Users/jeffz/Dev/vitest-projects/eidos/packages/code-editor/src/plugins/esm-import-resolver/services/__tests__/type-definition.test.ts:21:13)\n    at TypeDefinitionManager.fetchTypesWithRetry (/Users/jeffz/Dev/vitest-projects/eidos/packages/code-editor/src/plugins/esm-import-resolver/services/type-definition.ts:460:48)\n    at TypeDefinitionManager.fetchTypes (/Users/jeffz/Dev/vitest-projects/eidos/packages/code-editor/src/plugins/esm-import-resolver/services/type-definition.ts:145:30)\n    at /Users/jeffz/Dev/vitest-projects/eidos/packages/code-editor/src/plugins/esm-import-resolver/services/__tests__/type-definition.test.ts:188:22\n    at file:///Users/jeffz/Dev/vitest-projects/eidos/node_modules/.pnpm/@vitest+runner@2.1.9/node_modules/@vitest/runner/dist/index.js:533:5\n    at runTest (file:///Users/jeffz/Dev/vitest-projects/eidos/node_modules/.pnpm/@vitest+runner@2.1.9/node_modules/@vitest/runner/dist/index.js:1056:11)\n    at runSuite (file:///Users/jeffz/Dev/vitest-projects/eidos/node_modules/.pnpm/@vitest+runner@2.1.9/node_modules/@vitest/runner/dist/index.js:1205:15)\n    at runSuite (file:///Users/jeffz/Dev/vitest-projects/eidos/node_modules/.pnpm/@vitest+runner@2.1.9/node_modules/@vitest/runner/dist/index.js:1205:15)\n    at runSuite (file:///Users/jeffz/Dev/vitest-projects/eidos/node_modules/.pnpm/@vitest+runner@2.1.9/node_modules/@vitest/runner/dist/index.js:1205:15)\n    at runFiles (file:///Users/jeffz/Dev/vitest-projects/eidos/node_modules/.pnpm/@vitest+runner@2.1.9/node_modules/@vitest/runner/dist/index.js:1262:5)\n⏳ Waiting 2000ms before retry...\n\nstdout | packages/code-editor/src/plugins/esm-import-resolver/services/__tests__/type-definition.test.ts > TypeDefinitionManager > fetchTypes > should handle packages without type definitions\n🔄 Attempt 3/3 for https://esm.sh/some-package\n🔍 Resolving type URL for: https://esm.sh/some-package\n🔄 Trying common type patterns for: https://esm.sh/some-package\n🔍 Trying common patterns for package: some-package\n📝 Trying DefinitelyTyped pattern: https://esm.sh/@types/some-package?dts\n🔍 Fetching types from: https://esm.sh/@types/some-package?dts\n❌ Attempt 3 failed for https://esm.sh/some-package: Error: No mock response for https://esm.sh/@types/some-package?dts\n    at MockHttpClient.fetch (/Users/jeffz/Dev/vitest-projects/eidos/packages/code-editor/src/plugins/esm-import-resolver/services/__tests__/type-definition.test.ts:21:13)\n    at TypeDefinitionManager.fetchTypesWithRetry (/Users/jeffz/Dev/vitest-projects/eidos/packages/code-editor/src/plugins/esm-import-resolver/services/type-definition.ts:460:48)\n    at TypeDefinitionManager.fetchTypes (/Users/jeffz/Dev/vitest-projects/eidos/packages/code-editor/src/plugins/esm-import-resolver/services/type-definition.ts:145:30)\n    at /Users/jeffz/Dev/vitest-projects/eidos/packages/code-editor/src/plugins/esm-import-resolver/services/__tests__/type-definition.test.ts:188:22\n    at file:///Users/jeffz/Dev/vitest-projects/eidos/node_modules/.pnpm/@vitest+runner@2.1.9/node_modules/@vitest/runner/dist/index.js:533:5\n    at runTest (file:///Users/jeffz/Dev/vitest-projects/eidos/node_modules/.pnpm/@vitest+runner@2.1.9/node_modules/@vitest/runner/dist/index.js:1056:11)\n    at runSuite (file:///Users/jeffz/Dev/vitest-projects/eidos/node_modules/.pnpm/@vitest+runner@2.1.9/node_modules/@vitest/runner/dist/index.js:1205:15)\n    at runSuite (file:///Users/jeffz/Dev/vitest-projects/eidos/node_modules/.pnpm/@vitest+runner@2.1.9/node_modules/@vitest/runner/dist/index.js:1205:15)\n    at runSuite (file:///Users/jeffz/Dev/vitest-projects/eidos/node_modules/.pnpm/@vitest+runner@2.1.9/node_modules/@vitest/runner/dist/index.js:1205:15)\n    at runFiles (file:///Users/jeffz/Dev/vitest-projects/eidos/node_modules/.pnpm/@vitest+runner@2.1.9/node_modules/@vitest/runner/dist/index.js:1262:5)\n❌ All 3 attempts failed for https://esm.sh/some-package\n\nstdout | packages/code-editor/src/plugins/esm-import-resolver/services/__tests__/type-definition.test.ts > TypeDefinitionManager > fetchTypes > should retry on failure with exponential backoff\n🔍 Attempting to fetch types for: https://esm.sh/react\n🔄 Attempt 1/3 for https://esm.sh/react\n🔍 Resolving type URL for: https://esm.sh/react\n❌ Failed to check X-TypeScript-Types header: Error: Network error\n🔄 Trying common type patterns for: https://esm.sh/react\n🔍 Trying common patterns for package: react\n📝 Trying DefinitelyTyped pattern: https://esm.sh/@types/react?dts\n🔍 Fetching types from: https://esm.sh/@types/react?dts\n❌ Attempt 1 failed for https://esm.sh/react: Error: Unexpected URL: https://esm.sh/@types/react?dts\n    at MockHttpClient.<anonymous> (/Users/jeffz/Dev/vitest-projects/eidos/packages/code-editor/src/plugins/esm-import-resolver/services/__tests__/type-definition.test.ts:223:15)\n    at MockHttpClient.mockCall (file:///Users/jeffz/Dev/vitest-projects/eidos/node_modules/.pnpm/@vitest+spy@2.1.9/node_modules/@vitest/spy/dist/index.js:61:17)\n    at MockHttpClient.spy [as fetch] (file:///Users/jeffz/Dev/vitest-projects/eidos/node_modules/.pnpm/tinyspy@3.0.2/node_modules/tinyspy/dist/index.js:45:80)\n    at TypeDefinitionManager.fetchTypesWithRetry (/Users/jeffz/Dev/vitest-projects/eidos/packages/code-editor/src/plugins/esm-import-resolver/services/type-definition.ts:460:48)\n    at TypeDefinitionManager.fetchTypes (/Users/jeffz/Dev/vitest-projects/eidos/packages/code-editor/src/plugins/esm-import-resolver/services/type-definition.ts:145:30)\n    at /Users/jeffz/Dev/vitest-projects/eidos/packages/code-editor/src/plugins/esm-import-resolver/services/__tests__/type-definition.test.ts:226:22\n    at file:///Users/jeffz/Dev/vitest-projects/eidos/node_modules/.pnpm/@vitest+runner@2.1.9/node_modules/@vitest/runner/dist/index.js:533:5\n    at runTest (file:///Users/jeffz/Dev/vitest-projects/eidos/node_modules/.pnpm/@vitest+runner@2.1.9/node_modules/@vitest/runner/dist/index.js:1056:11)\n    at runSuite (file:///Users/jeffz/Dev/vitest-projects/eidos/node_modules/.pnpm/@vitest+runner@2.1.9/node_modules/@vitest/runner/dist/index.js:1205:15)\n    at runSuite (file:///Users/jeffz/Dev/vitest-projects/eidos/node_modules/.pnpm/@vitest+runner@2.1.9/node_modules/@vitest/runner/dist/index.js:1205:15)\n⏳ Waiting 1000ms before retry...\n\nstdout | packages/code-editor/src/plugins/esm-import-resolver/services/__tests__/type-definition.test.ts > TypeDefinitionManager > fetchTypes > should retry on failure with exponential backoff\n🔄 Attempt 2/3 for https://esm.sh/react\n🔍 Resolving type URL for: https://esm.sh/react\n📝 Found X-TypeScript-Types header: https://esm.sh/@types/react/index.d.ts\n🔍 Fetching types from: https://esm.sh/@types/react/index.d.ts\n✅ Successfully fetched types from https://esm.sh/@types/react/index.d.ts\n✅ Successfully fetched types for react\n\nstdout | packages/code-editor/src/plugins/esm-import-resolver/services/__tests__/type-definition.test.ts > TypeDefinitionManager > hasTypes > should check remote availability for uncached packages\n🔍 Resolving type URL for: https://esm.sh/react\n📝 Found X-TypeScript-Types header: https://esm.sh/@types/react/index.d.ts\n\nstdout | packages/code-editor/src/plugins/esm-import-resolver/services/__tests__/type-definition.test.ts > TypeDefinitionManager > prefetchTypes > should prefetch multiple packages\n📝 Simulating type prefetching for demo purposes\n📦 Packages that would be fetched: [\n  'https://esm.sh/react',\n  'https://esm.sh/lodash',\n  'https://esm.sh/axios'\n]\n✅ Simulated type prefetching completed: [\n  {\n    url: 'https://esm.sh/react',\n    status: 'simulated',\n    message: 'Would fetch type definitions from esm.sh'\n  },\n  {\n    url: 'https://esm.sh/lodash',\n    status: 'simulated',\n    message: 'Would fetch type definitions from esm.sh'\n  },\n  {\n    url: 'https://esm.sh/axios',\n    status: 'simulated',\n    message: 'Would fetch type definitions from esm.sh'\n  }\n]\n\nstdout | packages/code-editor/src/plugins/esm-import-resolver/services/__tests__/type-definition.test.ts > TypeDefinitionManager > validation > should skip empty package URLs\n⚠️ Skipping empty package URL\n\nstdout | packages/code-editor/src/plugins/esm-import-resolver/services/__tests__/type-definition.test.ts > TypeDefinitionManager > validation > should skip whitespace-only package URLs\n⚠️ Skipping empty package URL\n\nstdout | packages/code-editor/src/plugins/esm-import-resolver/services/__tests__/type-definition.test.ts > TypeDefinitionManager > validation > should skip relative file paths\n⚠️ Skipping local file path: ./utils.ts\n⚠️ Skipping local file path: ../components/Button.tsx\n⚠️ Skipping local file path: ./index.js\n⚠️ Skipping local file path: ../../../config.json\n\nstdout | packages/code-editor/src/plugins/esm-import-resolver/services/__tests__/type-definition.test.ts > TypeDefinitionManager > validation > should skip absolute file paths\n⚠️ Skipping local file path: /usr/local/lib/utils.ts\n⚠️ Skipping local file path: file:///home/user/project/src/index.ts\n⚠️ Skipping local file path: C:\\Users\\user\\project\\src\\utils.ts\n\nstdout | packages/code-editor/src/plugins/esm-import-resolver/services/__tests__/type-definition.test.ts > TypeDefinitionManager > validation > should skip local file extensions\n⚠️ Skipping local file path: utils.ts\n⚠️ Skipping local file path: component.tsx\n⚠️ Skipping local file path: styles.css\n⚠️ Skipping local file path: config.json\n\nstdout | packages/code-editor/src/plugins/esm-import-resolver/services/__tests__/type-definition.test.ts > TypeDefinitionManager > validation > should process valid package URLs\n🔍 Attempting to fetch types for: https://esm.sh/react\n🔄 Attempt 1/3 for https://esm.sh/react\n🔍 Resolving type URL for: https://esm.sh/react\n📝 Found X-TypeScript-Types header: https://esm.sh/@types/react/index.d.ts\n🔍 Fetching types from: https://esm.sh/@types/react/index.d.ts\n✅ Successfully fetched types from https://esm.sh/@types/react/index.d.ts\n✅ Successfully fetched types for react\n\n ❯ packages/code-editor/src/plugins/esm-import-resolver/services/__tests__/type-definition.test.ts (19 tests | 1 failed) 5234ms\n   ✓ TypeDefinitionManager > fetchTypes > should handle packages without type definitions 3012ms\n   ✓ TypeDefinitionManager > fetchTypes > should retry on failure with exponential backoff 1008ms\n   ✓ TypeDefinitionManager > cache management > should handle expired cache entries 1102ms\n   × TypeDefinitionManager > prefetchTypes > should prefetch multiple packages 103ms\n     → expected null to be truthy\n\n Test Files  1 failed (1)\n      Tests  1 failed | 18 passed (19)\n   Start at  14:47:19\n   Duration  8.17s (transform 113ms, setup 0ms, collect 51ms, tests 5.23s, environment 299ms, prepare 725ms)\n\n",
+      "stderr": "npm warn Unknown project config \"hoist\". This will stop working in the next major version of npm.\nnpm warn Unknown project config \"public-hoist-pattern\". This will stop working in the next major version of npm.\nnpm warn Unknown project config \"ignore-workspace-root-check\". This will stop working in the next major version of npm.\nnpm warn Unknown project config \"ignore-platform-for\". This will stop working in the next major version of npm.\nstderr | packages/code-editor/src/plugins/esm-import-resolver/services/__tests__/type-definition.test.ts > TypeDefinitionManager > fetchTypes > should handle packages without type definitions\nFailed to fetch types for https://esm.sh/some-package: Error: No mock response for https://esm.sh/@types/some-package?dts\n    at MockHttpClient.fetch (/Users/jeffz/Dev/vitest-projects/eidos/packages/code-editor/src/plugins/esm-import-resolver/services/__tests__/type-definition.test.ts:21:13)\n    at TypeDefinitionManager.fetchTypesWithRetry (/Users/jeffz/Dev/vitest-projects/eidos/packages/code-editor/src/plugins/esm-import-resolver/services/type-definition.ts:460:48)\n    at TypeDefinitionManager.fetchTypes (/Users/jeffz/Dev/vitest-projects/eidos/packages/code-editor/src/plugins/esm-import-resolver/services/type-definition.ts:145:30)\n    at /Users/jeffz/Dev/vitest-projects/eidos/packages/code-editor/src/plugins/esm-import-resolver/services/__tests__/type-definition.test.ts:188:22\n    at file:///Users/jeffz/Dev/vitest-projects/eidos/node_modules/.pnpm/@vitest+runner@2.1.9/node_modules/@vitest/runner/dist/index.js:533:5\n    at runTest (file:///Users/jeffz/Dev/vitest-projects/eidos/node_modules/.pnpm/@vitest+runner@2.1.9/node_modules/@vitest/runner/dist/index.js:1056:11)\n    at runSuite (file:///Users/jeffz/Dev/vitest-projects/eidos/node_modules/.pnpm/@vitest+runner@2.1.9/node_modules/@vitest/runner/dist/index.js:1205:15)\n    at runSuite (file:///Users/jeffz/Dev/vitest-projects/eidos/node_modules/.pnpm/@vitest+runner@2.1.9/node_modules/@vitest/runner/dist/index.js:1205:15)\n    at runSuite (file:///Users/jeffz/Dev/vitest-projects/eidos/node_modules/.pnpm/@vitest+runner@2.1.9/node_modules/@vitest/runner/dist/index.js:1205:15)\n    at runFiles (file:///Users/jeffz/Dev/vitest-projects/eidos/node_modules/.pnpm/@vitest+runner@2.1.9/node_modules/@vitest/runner/dist/index.js:1262:5)\n\n⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯\n\n FAIL  packages/code-editor/src/plugins/esm-import-resolver/services/__tests__/type-definition.test.ts > TypeDefinitionManager > prefetchTypes > should prefetch multiple packages\nAssertionError: expected null to be truthy\n\n- Expected: \ntrue\n\n+ Received: \nnull\n\n ❯ packages/code-editor/src/plugins/esm-import-resolver/services/__tests__/type-definition.test.ts:351:45\n    349|       // All packages should be cached\n    350|       packages.forEach(pkg => {\n    351|         expect(manager.getCachedTypes(pkg)).toBeTruthy()\n       |                                             ^\n    352|       })\n    353| \n ❯ packages/code-editor/src/plugins/esm-import-resolver/services/__tests__/type-definition.test.ts:350:16\n\n⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯\n\n"
+    }
+  ]
+}

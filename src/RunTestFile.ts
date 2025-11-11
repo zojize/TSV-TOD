@@ -11,6 +11,7 @@ import type { SerializedSuite, SerializedTest } from "./Types.js"
 import { RoundReport } from "./Types.js"
 import { runString } from "./Utils.js"
 
+// TODO: add TRUNCATE_AFTER environment variable
 export const RunTestFile = ({
   file,
   runner = false

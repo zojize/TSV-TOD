@@ -17,6 +17,7 @@ export default mergeConfig(
             }
 
             // there should be exactly one file per run
+            // for some reason just specifying the runner in vitest.config.ts doesn't work
             files[0].project.config.runner = runnerPath
             return [files[0]]
           }

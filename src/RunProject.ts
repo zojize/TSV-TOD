@@ -74,6 +74,7 @@ export const RunProject = Effect.gen(function*() {
 
   const projectReport = {
     project: cwd,
+    totalTestFiles: nTestFiles,
     flakyTests: [] as Array<{
       file: string
       reports: Array<RoundReport | undefined>

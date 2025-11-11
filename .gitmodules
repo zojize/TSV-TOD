@@ -1,0 +1,45 @@
+[submodule "vitest-projects/mayneyao/eidos"]
+	path = vitest-projects/mayneyao/eidos
+	url = https://github.com/mayneyao/eidos.git
+[submodule "vitest-projects/antfu/eslint-config"]
+	path = vitest-projects/antfu/eslint-config
+	url = https://github.com/antfu/eslint-config.git
+[submodule "vitest-projects/antfu/eslint-plugin-command"]
+	path = vitest-projects/antfu/eslint-plugin-command
+	url = https://github.com/antfu/eslint-plugin-command.git
+[submodule "vitest-projects/eslint-stylistic/eslint-stylistic"]
+	path = vitest-projects/eslint-stylistic/eslint-stylistic
+	url = https://github.com/eslint-stylistic/eslint-stylistic.git
+[submodule "vitest-projects/slidevjs/slidev"]
+	path = vitest-projects/slidevjs/slidev
+	url = https://github.com/slidevjs/slidev
+[submodule "vitest-projects/tinylibs/tinyspy"]
+	path = vitest-projects/tinylibs/tinyspy
+	url = https://github.com/tinylibs/tinyspy.git
+[submodule "vitest-projects/rolldown/tsdown"]
+	path = vitest-projects/rolldown/tsdown
+	url = https://github.com/rolldown/tsdown.git
+[submodule "vitest-projects/antfu/unocss"]
+	path = vitest-projects/antfu/unocss
+	url = https://github.com/antfu/unocss
+[submodule "vitest-projects/sxzz/unplugin-utils"]
+	path = vitest-projects/sxzz/unplugin-utils
+	url = https://github.com/sxzz/unplugin-utils.git
+[submodule "vitest-projects/davelosert/vitest-coverage-report-action"]
+	path = vitest-projects/davelosert/vitest-coverage-report-action
+	url = https://github.com/davelosert/vitest-coverage-report-action.git
+[submodule "vitest-projects/getsentry/vitest-evals"]
+	path = vitest-projects/getsentry/vitest-evals
+	url = https://github.com/getsentry/vitest-evals.git
+[submodule "vitest-projects/vueuse/vueuse"]
+	path = vitest-projects/vueuse/vueuse
+	url = https://github.com/vueuse/vueuse.git
+[submodule "vitest-projects/aooiuu/any-reader"]
+	path = vitest-projects/aooiuu/any-reader
+	url = https://github.com/aooiuu/any-reader.git
+[submodule "vitest-projects/paritytech/asset-transfer-api"]
+	path = vitest-projects/paritytech/asset-transfer-api
+	url = https://github.com/paritytech/asset-transfer-api.git
+[submodule "vitest-projects/elk-zone/elk"]
+	path = vitest-projects/elk-zone/elk
+	url = https://github.com/elk-zone/elk.git

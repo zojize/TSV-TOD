@@ -28,9 +28,6 @@
 [submodule "vitest-projects/davelosert/vitest-coverage-report-action"]
 	path = vitest-projects/davelosert/vitest-coverage-report-action
 	url = https://github.com/davelosert/vitest-coverage-report-action.git
-[submodule "vitest-projects/getsentry/vitest-evals"]
-	path = vitest-projects/getsentry/vitest-evals
-	url = https://github.com/getsentry/vitest-evals.git
 [submodule "vitest-projects/vueuse/vueuse"]
 	path = vitest-projects/vueuse/vueuse
 	url = https://github.com/vueuse/vueuse.git

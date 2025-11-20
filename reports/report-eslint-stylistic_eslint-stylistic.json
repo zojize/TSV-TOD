@@ -1,0 +1,71 @@
+{
+  "project": "/Users/jeffz/Dev/TSV-TOD/vitest-projects/eslint-stylistic/eslint-stylistic",
+  "totalTestFiles": 123,
+  "flakyTests": [],
+  "failedTests": [
+    {
+      "file": "/Users/jeffz/Dev/TSV-TOD/vitest-projects/eslint-stylistic/eslint-stylistic/tests/configs/preset.test.ts",
+      "exitCode": 1,
+      "success": false,
+      "report": {
+        "done": true,
+        "order": "original",
+        "seed": 1763457338884,
+        "originalSuite": {
+          "type": "suite",
+          "name": "tests/configs/preset.test.ts",
+          "taskGroups": [
+            {
+              "concurrent": true,
+              "tasks": [
+                {
+                  "type": "test",
+                  "name": "default",
+                  "state": "unknown"
+                },
+                {
+                  "type": "test",
+                  "name": "tab-quotes-semi",
+                  "state": "unknown"
+                },
+                {
+                  "type": "test",
+                  "name": "all",
+                  "state": "unknown"
+                }
+              ]
+            }
+          ]
+        },
+        "shuffledSuite": {
+          "type": "suite",
+          "name": "tests/configs/preset.test.ts",
+          "taskGroups": [
+            {
+              "concurrent": true,
+              "tasks": [
+                {
+                  "type": "test",
+                  "name": "default",
+                  "state": "fail"
+                },
+                {
+                  "type": "test",
+                  "name": "tab-quotes-semi",
+                  "state": "fail"
+                },
+                {
+                  "type": "test",
+                  "name": "all",
+                  "state": "fail"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "stdout": "\n RUN  v3.2.4 /Users/jeffz/Dev/TSV-TOD/vitest-projects/eslint-stylistic/eslint-stylistic\n\n ❯ tests/configs/preset.test.ts (3 tests | 3 failed) 7ms\n   × default 4ms\n     → EEXIST: file already exists, mkdir '/Users/jeffz/Dev/TSV-TOD/vitest-projects/eslint-stylistic/eslint-stylistic/_fixtures/default'\n   × tab-quotes-semi 4ms\n     → EEXIST: file already exists, mkdir '/Users/jeffz/Dev/TSV-TOD/vitest-projects/eslint-stylistic/eslint-stylistic/_fixtures/tab-quotes-semi'\n   × all 4ms\n     → EEXIST: file already exists, mkdir '/Users/jeffz/Dev/TSV-TOD/vitest-projects/eslint-stylistic/eslint-stylistic/_fixtures/all'\n\n Test Files  1 failed (1)\n      Tests  3 failed (3)\n   Start at  03:15:36\n   Duration  2.83s (transform 356ms, setup 0ms, collect 571ms, tests 7ms, environment 0ms, prepare 1.21s)\n\n",
+      "stderr": "npm warn Unknown project config \"ignore-workspace-root-check\". This will stop working in the next major version of npm.\n\n⎯⎯⎯⎯⎯⎯ Failed Suites 1 ⎯⎯⎯⎯⎯⎯⎯\n\n FAIL  tests/configs/preset.test.ts [ tests/configs/preset.test.ts ]\nError: ENOTEMPTY: directory not empty, rmdir '_fixtures/all'\n⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/4]⎯\n\n\n⎯⎯⎯⎯⎯⎯⎯ Failed Tests 3 ⎯⎯⎯⎯⎯⎯⎯\n\n FAIL  tests/configs/preset.test.ts > default\nError: EEXIST: file already exists, mkdir '/Users/jeffz/Dev/TSV-TOD/vitest-projects/eslint-stylistic/eslint-stylistic/_fixtures/default'\n ❯ tests/configs/preset.test.ts:34:5\n     32|     const target = resolve('_fixtures', name)\n     33| \n     34|     await fsp.cp(from, target, {\n       |     ^\n     35|       recursive: true,\n     36|       filter: (src) => {\n\n⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/4]⎯\n\n FAIL  tests/configs/preset.test.ts > tab-quotes-semi\nError: EEXIST: file already exists, mkdir '/Users/jeffz/Dev/TSV-TOD/vitest-projects/eslint-stylistic/eslint-stylistic/_fixtures/tab-quotes-semi'\n ❯ tests/configs/preset.test.ts:34:5\n     32|     const target = resolve('_fixtures', name)\n     33| \n     34|     await fsp.cp(from, target, {\n       |     ^\n     35|       recursive: true,\n     36|       filter: (src) => {\n\n⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/4]⎯\n\n FAIL  tests/configs/preset.test.ts > all\nError: EEXIST: file already exists, mkdir '/Users/jeffz/Dev/TSV-TOD/vitest-projects/eslint-stylistic/eslint-stylistic/_fixtures/all'\n ❯ tests/configs/preset.test.ts:34:5\n     32|     const target = resolve('_fixtures', name)\n     33| \n     34|     await fsp.cp(from, target, {\n       |     ^\n     35|       recursive: true,\n     36|       filter: (src) => {\n\n⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/4]⎯\n\n"
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "project": "/Users/jeffz/Dev/TSV-TOD/vitest-projects/antfu/eslint-config",
+  "totalTestFiles": 3,
+  "flakyTests": [],
+  "failedTests": [
+    {
+      "file": "/Users/jeffz/Dev/TSV-TOD/vitest-projects/antfu/eslint-config/test/cli.spec.ts",
+      "exitCode": 1,
+      "success": false,
+      "report": {
+        "done": true,
+        "order": "original",
+        "seed": 1763455866233,
+        "originalSuite": {
+          "type": "suite",
+          "name": "test/cli.spec.ts",
+          "taskGroups": [
+            {
+              "concurrent": false,
+              "tasks": [
+                {
+                  "type": "test",
+                  "name": "package.json updated",
+                  "state": "unknown"
+                },
+                {
+                  "type": "test",
+                  "name": "esm eslint.config.js",
+                  "state": "unknown"
+                },
+                {
+                  "type": "test",
+                  "name": "ignores files added in eslint.config.js",
+                  "state": "unknown"
+                },
+                {
+                  "type": "test",
+                  "name": "suggest remove unnecessary files",
+                  "state": "unknown"
+                }
+              ]
+            }
+          ]
+        },
+        "shuffledSuite": {
+          "type": "suite",
+          "name": "test/cli.spec.ts",
+          "taskGroups": [
+            {
+              "concurrent": false,
+              "tasks": [
+                {
+                  "type": "test",
+                  "name": "package.json updated",
+                  "state": "fail"
+                },
+                {
+                  "type": "test",
+                  "name": "esm eslint.config.js",
+                  "state": "fail"
+                },
+                {
+                  "type": "test",
+                  "name": "ignores files added in eslint.config.js",
+                  "state": "fail"
+                },
+                {
+                  "type": "test",
+                  "name": "suggest remove unnecessary files",
+                  "state": "fail"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "stdout": "\n\u001b[1m\u001b[46m RUN \u001b[49m\u001b[22m \u001b[36mv4.0.5 \u001b[39m\u001b[90m/Users/jeffz/Dev/TSV-TOD/vitest-projects/antfu/eslint-config\u001b[39m\n\n \u001b[31m❯\u001b[39m test/cli.spec.ts \u001b[2m(\u001b[22m\u001b[2m4 tests\u001b[22m\u001b[2m | \u001b[22m\u001b[31m4 failed\u001b[39m\u001b[2m)\u001b[22m\u001b[33m 3901\u001b[2mms\u001b[22m\u001b[39m\n\u001b[31m   \u001b[31m×\u001b[31m package.json updated\u001b[39m\u001b[33m 985\u001b[2mms\u001b[22m\u001b[39m\n\u001b[31m   \u001b[31m×\u001b[31m esm eslint.config.js\u001b[39m\u001b[33m 961\u001b[2mms\u001b[22m\u001b[39m\n\u001b[31m   \u001b[31m×\u001b[31m ignores files added in eslint.config.js\u001b[39m\u001b[33m 966\u001b[2mms\u001b[22m\u001b[39m\n\u001b[31m   \u001b[31m×\u001b[31m suggest remove unnecessary files\u001b[39m\u001b[33m 985\u001b[2mms\u001b[22m\u001b[39m\n\n\u001b[2m Test Files \u001b[22m \u001b[1m\u001b[31m1 failed\u001b[39m\u001b[22m\u001b[90m (1)\u001b[39m\n\u001b[2m      Tests \u001b[22m \u001b[1m\u001b[31m4 failed\u001b[39m\u001b[22m\u001b[90m (4)\u001b[39m\n\u001b[2m   Start at \u001b[22m 02:51:06\n\u001b[2m   Duration \u001b[22m 4.14s\u001b[2m (transform 39ms, setup 0ms, collect 82ms, tests 3.90s, environment 0ms, prepare 34ms)\u001b[22m\n\n",
+      "stderr": "\n\u001b[31m⎯⎯⎯⎯⎯⎯⎯\u001b[39m\u001b[1m\u001b[41m Failed Tests 4 \u001b[49m\u001b[22m\u001b[31m⎯⎯⎯⎯⎯⎯⎯\u001b[39m\n\n\u001b[41m\u001b[1m FAIL \u001b[22m\u001b[49m test/cli.spec.ts\u001b[2m > \u001b[22mpackage.json updated\n\u001b[31m\u001b[1mExecaError\u001b[22m: Command failed with exit code 1: node /Users/jeffz/Dev/TSV-TOD/vitest-projects/antfu/eslint-config/bin/index.js\n\nnode:internal/modules/esm/resolve:274\n    throw new ERR_MODULE_NOT_FOUND(\n          ^\n\nError [ERR_MODULE_NOT_FOUND]: Cannot find module '/Users/jeffz/Dev/TSV-TOD/vitest-projects/antfu/eslint-config/dist/cli.js' imported from /Users/jeffz/Dev/TSV-TOD/vitest-projects/antfu/eslint-config/bin/index.js\n    at finalizeResolution (node:internal/modules/esm/resolve:274:11)\n    at moduleResolve (node:internal/modules/esm/resolve:859:10)\n    at defaultResolve (node:internal/modules/esm/resolve:983:11)\n    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:799:12)\n    at #cachedDefaultResolve (node:internal/modules/esm/loader:723:25)\n    at ModuleLoader.resolve (node:internal/modules/esm/loader:706:38)\n    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:307:38)\n    at #link (node:internal/modules/esm/module_job:170:49) {\n  code: 'ERR_MODULE_NOT_FOUND',\n  url: 'file:///Users/jeffz/Dev/TSV-TOD/vitest-projects/antfu/eslint-config/dist/cli.js'\n}\n\nNode.js v24.1.0\u001b[39m\n\u001b[90m \u001b[2m❯\u001b[22m getFinalError node_modules/.pnpm/execa@9.6.0/node_modules/execa/lib/return/final-error.js:\u001b[2m6:9\u001b[22m\u001b[39m\n\u001b[90m \u001b[2m❯\u001b[22m makeError node_modules/.pnpm/execa@9.6.0/node_modules/execa/lib/return/result.js:\u001b[2m108:16\u001b[22m\u001b[39m\n\u001b[90m \u001b[2m❯\u001b[22m getAsyncResult node_modules/.pnpm/execa@9.6.0/node_modules/execa/lib/methods/main-async.js:\u001b[2m168:4\u001b[22m\u001b[39m\n\u001b[90m \u001b[2m❯\u001b[22m handlePromise node_modules/.pnpm/execa@9.6.0/node_modules/execa/lib/methods/main-async.js:\u001b[2m151:17\u001b[22m\u001b[39m\n\u001b[36m \u001b[2m❯\u001b[22m test/cli.spec.ts:\u001b[2m45:22\u001b[22m\u001b[39m\n    \u001b[90m 43| \u001b[39m\n    \u001b[90m 44| \u001b[39m\u001b[34mit\u001b[39m(\u001b[32m'package.json updated'\u001b[39m\u001b[33m,\u001b[39m \u001b[35masync\u001b[39m () \u001b[33m=>\u001b[39m {\n    \u001b[90m 45| \u001b[39m  \u001b[35mconst\u001b[39m { stdout } \u001b[33m=\u001b[39m \u001b[35mawait\u001b[39m \u001b[34mrun\u001b[39m()\n    \u001b[90m   | \u001b[39m                     \u001b[31m^\u001b[39m\n    \u001b[90m 46| \u001b[39m\n    \u001b[90m 47| \u001b[39m  const pkgContent: Record<string, any> = JSON.parse(await fs.readFile…\n\n\u001b[31m\u001b[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/4]⎯\u001b[22m\u001b[39m\n\n\u001b[41m\u001b[1m FAIL \u001b[22m\u001b[49m test/cli.spec.ts\u001b[2m > \u001b[22mesm eslint.config.js\n\u001b[31m\u001b[1mExecaError\u001b[22m: Command failed with exit code 1: node /Users/jeffz/Dev/TSV-TOD/vitest-projects/antfu/eslint-config/bin/index.js\n\nnode:internal/modules/esm/resolve:274\n    throw new ERR_MODULE_NOT_FOUND(\n          ^\n\nError [ERR_MODULE_NOT_FOUND]: Cannot find module '/Users/jeffz/Dev/TSV-TOD/vitest-projects/antfu/eslint-config/dist/cli.js' imported from /Users/jeffz/Dev/TSV-TOD/vitest-projects/antfu/eslint-config/bin/index.js\n    at finalizeResolution (node:internal/modules/esm/resolve:274:11)\n    at moduleResolve (node:internal/modules/esm/resolve:859:10)\n    at defaultResolve (node:internal/modules/esm/resolve:983:11)\n    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:799:12)\n    at #cachedDefaultResolve (node:internal/modules/esm/loader:723:25)\n    at ModuleLoader.resolve (node:internal/modules/esm/loader:706:38)\n    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:307:38)\n    at #link (node:internal/modules/esm/module_job:170:49) {\n  code: 'ERR_MODULE_NOT_FOUND',\n  url: 'file:///Users/jeffz/Dev/TSV-TOD/vitest-projects/antfu/eslint-config/dist/cli.js'\n}\n\nNode.js v24.1.0\u001b[39m\n\u001b[90m \u001b[2m❯\u001b[22m getFinalError node_modules/.pnpm/execa@9.6.0/node_modules/execa/lib/return/final-error.js:\u001b[2m6:9\u001b[22m\u001b[39m\n\u001b[90m \u001b[2m❯\u001b[22m makeError node_modules/.pnpm/execa@9.6.0/node_modules/execa/lib/return/result.js:\u001b[2m108:16\u001b[22m\u001b[39m\n\u001b[90m \u001b[2m❯\u001b[22m getAsyncResult node_modules/.pnpm/execa@9.6.0/node_modules/execa/lib/methods/main-async.js:\u001b[2m168:4\u001b[22m\u001b[39m\n\u001b[90m \u001b[2m❯\u001b[22m handlePromise node_modules/.pnpm/execa@9.6.0/node_modules/execa/lib/methods/main-async.js:\u001b[2m151:17\u001b[22m\u001b[39m\n\u001b[36m \u001b[2m❯\u001b[22m test/cli.spec.ts:\u001b[2m57:22\u001b[22m\u001b[39m\n    \u001b[90m 55| \u001b[39m  await fs.writeFile(join(genPath, 'package.json'), JSON.stringify({ .…\n    \u001b[90m 56| \u001b[39m\n    \u001b[90m 57| \u001b[39m  \u001b[35mconst\u001b[39m { stdout } \u001b[33m=\u001b[39m \u001b[35mawait\u001b[39m \u001b[34mrun\u001b[39m()\n    \u001b[90m   | \u001b[39m                     \u001b[31m^\u001b[39m\n    \u001b[90m 58| \u001b[39m\n    \u001b[90m 59| \u001b[39m  const eslintConfigContent = await fs.readFile(join(genPath, 'eslint.…\n\n\u001b[31m\u001b[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/4]⎯\u001b[22m\u001b[39m\n\n\u001b[41m\u001b[1m FAIL \u001b[22m\u001b[49m test/cli.spec.ts\u001b[2m > \u001b[22mignores files added in eslint.config.js\n\u001b[31m\u001b[1mExecaError\u001b[22m: Command failed with exit code 1: node /Users/jeffz/Dev/TSV-TOD/vitest-projects/antfu/eslint-config/bin/index.js\n\nnode:internal/modules/esm/resolve:274\n    throw new ERR_MODULE_NOT_FOUND(\n          ^\n\nError [ERR_MODULE_NOT_FOUND]: Cannot find module '/Users/jeffz/Dev/TSV-TOD/vitest-projects/antfu/eslint-config/dist/cli.js' imported from /Users/jeffz/Dev/TSV-TOD/vitest-projects/antfu/eslint-config/bin/index.js\n    at finalizeResolution (node:internal/modules/esm/resolve:274:11)\n    at moduleResolve (node:internal/modules/esm/resolve:859:10)\n    at defaultResolve (node:internal/modules/esm/resolve:983:11)\n    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:799:12)\n    at #cachedDefaultResolve (node:internal/modules/esm/loader:723:25)\n    at ModuleLoader.resolve (node:internal/modules/esm/loader:706:38)\n    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:307:38)\n    at #link (node:internal/modules/esm/module_job:170:49) {\n  code: 'ERR_MODULE_NOT_FOUND',\n  url: 'file:///Users/jeffz/Dev/TSV-TOD/vitest-projects/antfu/eslint-config/dist/cli.js'\n}\n\nNode.js v24.1.0\u001b[39m\n\u001b[90m \u001b[2m❯\u001b[22m getFinalError node_modules/.pnpm/execa@9.6.0/node_modules/execa/lib/return/final-error.js:\u001b[2m6:9\u001b[22m\u001b[39m\n\u001b[90m \u001b[2m❯\u001b[22m makeError node_modules/.pnpm/execa@9.6.0/node_modules/execa/lib/return/result.js:\u001b[2m108:16\u001b[22m\u001b[39m\n\u001b[90m \u001b[2m❯\u001b[22m getAsyncResult node_modules/.pnpm/execa@9.6.0/node_modules/execa/lib/methods/main-async.js:\u001b[2m168:4\u001b[22m\u001b[39m\n\u001b[90m \u001b[2m❯\u001b[22m handlePromise node_modules/.pnpm/execa@9.6.0/node_modules/execa/lib/methods/main-async.js:\u001b[2m151:17\u001b[22m\u001b[39m\n\u001b[36m \u001b[2m❯\u001b[22m test/cli.spec.ts:\u001b[2m65:22\u001b[22m\u001b[39m\n    \u001b[90m 63| \u001b[39m\n    \u001b[90m 64| \u001b[39m\u001b[34mit\u001b[39m(\u001b[32m'ignores files added in eslint.config.js'\u001b[39m\u001b[33m,\u001b[39m \u001b[35masync\u001b[39m () \u001b[33m=>\u001b[39m {\n    \u001b[90m 65| \u001b[39m  \u001b[35mconst\u001b[39m { stdout } \u001b[33m=\u001b[39m \u001b[35mawait\u001b[39m \u001b[34mrun\u001b[39m()\n    \u001b[90m   | \u001b[39m                     \u001b[31m^\u001b[39m\n    \u001b[90m 66| \u001b[39m\n    \u001b[90m 67| \u001b[39m  const eslintConfigContent = (await fs.readFile(join(genPath, 'eslint…\n\n\u001b[31m\u001b[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/4]⎯\u001b[22m\u001b[39m\n\n\u001b[41m\u001b[1m FAIL \u001b[22m\u001b[49m test/cli.spec.ts\u001b[2m > \u001b[22msuggest remove unnecessary files\n\u001b[31m\u001b[1mExecaError\u001b[22m: Command failed with exit code 1: node /Users/jeffz/Dev/TSV-TOD/vitest-projects/antfu/eslint-config/bin/index.js\n\nnode:internal/modules/esm/resolve:274\n    throw new ERR_MODULE_NOT_FOUND(\n          ^\n\nError [ERR_MODULE_NOT_FOUND]: Cannot find module '/Users/jeffz/Dev/TSV-TOD/vitest-projects/antfu/eslint-config/dist/cli.js' imported from /Users/jeffz/Dev/TSV-TOD/vitest-projects/antfu/eslint-config/bin/index.js\n    at finalizeResolution (node:internal/modules/esm/resolve:274:11)\n    at moduleResolve (node:internal/modules/esm/resolve:859:10)\n    at defaultResolve (node:internal/modules/esm/resolve:983:11)\n    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:799:12)\n    at #cachedDefaultResolve (node:internal/modules/esm/loader:723:25)\n    at ModuleLoader.resolve (node:internal/modules/esm/loader:706:38)\n    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:307:38)\n    at #link (node:internal/modules/esm/module_job:170:49) {\n  code: 'ERR_MODULE_NOT_FOUND',\n  url: 'file:///Users/jeffz/Dev/TSV-TOD/vitest-projects/antfu/eslint-config/dist/cli.js'\n}\n\nNode.js v24.1.0\u001b[39m\n\u001b[90m \u001b[2m❯\u001b[22m getFinalError node_modules/.pnpm/execa@9.6.0/node_modules/execa/lib/return/final-error.js:\u001b[2m6:9\u001b[22m\u001b[39m\n\u001b[90m \u001b[2m❯\u001b[22m makeError node_modules/.pnpm/execa@9.6.0/node_modules/execa/lib/return/result.js:\u001b[2m108:16\u001b[22m\u001b[39m\n\u001b[90m \u001b[2m❯\u001b[22m getAsyncResult node_modules/.pnpm/execa@9.6.0/node_modules/execa/lib/methods/main-async.js:\u001b[2m168:4\u001b[22m\u001b[39m\n\u001b[90m \u001b[2m❯\u001b[22m handlePromise node_modules/.pnpm/execa@9.6.0/node_modules/execa/lib/methods/main-async.js:\u001b[2m151:17\u001b[22m\u001b[39m\n\u001b[36m \u001b[2m❯\u001b[22m test/cli.spec.ts:\u001b[2m82:22\u001b[22m\u001b[39m\n    \u001b[90m 80| \u001b[39m\n    \u001b[90m 81| \u001b[39m\u001b[34mit\u001b[39m(\u001b[32m'suggest remove unnecessary files'\u001b[39m\u001b[33m,\u001b[39m \u001b[35masync\u001b[39m () \u001b[33m=>\u001b[39m {\n    \u001b[90m 82| \u001b[39m  \u001b[35mconst\u001b[39m { stdout } \u001b[33m=\u001b[39m \u001b[35mawait\u001b[39m \u001b[34mrun\u001b[39m()\n    \u001b[90m   | \u001b[39m                     \u001b[31m^\u001b[39m\n    \u001b[90m 83| \u001b[39m\n    \u001b[90m 84| \u001b[39m  \u001b[34mexpect\u001b[39m(stdout)\u001b[33m.\u001b[39m\u001b[34mtoContain\u001b[39m(\u001b[32m'You can now remove those files manually'\u001b[39m)\n\n\u001b[31m\u001b[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/4]⎯\u001b[22m\u001b[39m\n\n"
+    },
+    {
+      "file": "/Users/jeffz/Dev/TSV-TOD/vitest-projects/antfu/eslint-config/test/fixtures.test.ts",
+      "exitCode": 1,
+      "success": false,
+      "report": {
+        "done": true,
+        "order": "original",
+        "seed": 1763455872034,
+        "originalSuite": {
+          "type": "suite",
+          "name": "test/fixtures.test.ts",
+          "taskGroups": [
+            {
+              "concurrent": true,
+              "tasks": [
+                {
+                  "type": "test",
+                  "name": "js",
+                  "state": "unknown"
+                },
+                {
+                  "type": "test",
+                  "name": "all",
+                  "state": "unknown"
+                },
+                {
+                  "type": "test",
+                  "name": "no-style",
+                  "state": "unknown"
+                },
+                {
+                  "type": "test",
+                  "name": "tab-double-quotes",
+                  "state": "unknown"
+                },
+                {
+                  "type": "test",
+                  "name": "ts-override",
+                  "state": "unknown"
+                },
+                {
+                  "type": "test",
+                  "name": "ts-strict",
+                  "state": "unknown"
+                },
+                {
+                  "type": "test",
+                  "name": "ts-strict-with-react",
+                  "state": "unknown"
+                },
+                {
+                  "type": "test",
+                  "name": "with-formatters",
+                  "state": "unknown"
+                },
+                {
+                  "type": "test",
+                  "name": "no-markdown-with-formatters",
+                  "state": "unknown"
+                }
+              ]
+            }
+          ]
+        },
+        "shuffledSuite": {
+          "type": "suite",
+          "name": "test/fixtures.test.ts",
+          "taskGroups": [
+            {
+              "concurrent": true,
+              "tasks": [
+                {
+                  "type": "test",
+                  "name": "js",
+                  "state": "skip"
+                },
+                {
+                  "type": "test",
+                  "name": "all",
+                  "state": "skip"
+                },
+                {
+                  "type": "test",
+                  "name": "no-style",
+                  "state": "skip"
+                },
+                {
+                  "type": "test",
+                  "name": "tab-double-quotes",
+                  "state": "skip"
+                },
+                {
+                  "type": "test",
+                  "name": "ts-override",
+                  "state": "skip"
+                },
+                {
+                  "type": "test",
+                  "name": "ts-strict",
+                  "state": "skip"
+                },
+                {
+                  "type": "test",
+                  "name": "ts-strict-with-react",
+                  "state": "skip"
+                },
+                {
+                  "type": "test",
+                  "name": "with-formatters",
+                  "state": "skip"
+                },
+                {
+                  "type": "test",
+                  "name": "no-markdown-with-formatters",
+                  "state": "skip"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "stdout": "\n\u001b[1m\u001b[46m RUN \u001b[49m\u001b[22m \u001b[36mv4.0.5 \u001b[39m\u001b[90m/Users/jeffz/Dev/TSV-TOD/vitest-projects/antfu/eslint-config\u001b[39m\n\n \u001b[31m❯\u001b[39m test/fixtures.test.ts \u001b[2m(\u001b[22m\u001b[2m9 tests\u001b[22m\u001b[2m | \u001b[22m\u001b[33m9 skipped\u001b[39m\u001b[2m)\u001b[22m\u001b[32m 34\u001b[2mms\u001b[22m\u001b[39m\n   \u001b[2m\u001b[90m↓\u001b[39m\u001b[22m js\n   \u001b[2m\u001b[90m↓\u001b[39m\u001b[22m all\n   \u001b[2m\u001b[90m↓\u001b[39m\u001b[22m no-style\n   \u001b[2m\u001b[90m↓\u001b[39m\u001b[22m tab-double-quotes\n   \u001b[2m\u001b[90m↓\u001b[39m\u001b[22m ts-override\n   \u001b[2m\u001b[90m↓\u001b[39m\u001b[22m ts-strict\n   \u001b[2m\u001b[90m↓\u001b[39m\u001b[22m ts-strict-with-react\n   \u001b[2m\u001b[90m↓\u001b[39m\u001b[22m with-formatters\n   \u001b[2m\u001b[90m↓\u001b[39m\u001b[22m no-markdown-with-formatters\n\n\u001b[2m Test Files \u001b[22m \u001b[1m\u001b[31m1 failed\u001b[39m\u001b[22m\u001b[90m (1)\u001b[39m\n\u001b[2m      Tests \u001b[22m \u001b[33m9 skipped\u001b[39m\u001b[90m (9)\u001b[39m\n\u001b[2m   Start at \u001b[22m 02:51:11\n\u001b[2m   Duration \u001b[22m 277ms\u001b[2m (transform 42ms, setup 0ms, collect 95ms, tests 34ms, environment 0ms, prepare 31ms)\u001b[22m\n\n",
+      "stderr": "\n\u001b[31m⎯⎯⎯⎯⎯⎯\u001b[39m\u001b[1m\u001b[41m Failed Suites 1 \u001b[49m\u001b[22m\u001b[31m⎯⎯⎯⎯⎯⎯⎯\u001b[39m\n\n\u001b[41m\u001b[1m FAIL \u001b[22m\u001b[49m test/fixtures.test.ts\u001b[2m [ test/fixtures.test.ts ]\u001b[22m\n\u001b[41m\u001b[1m FAIL \u001b[22m\u001b[49m test/fixtures.test.ts\u001b[2m [ test/fixtures.test.ts ]\u001b[22m\n\u001b[31m\u001b[1mError\u001b[22m: ENOTEMPTY: directory not empty, rmdir '_fixtures/js'\u001b[39m\n\u001b[31m\u001b[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/2]⎯\u001b[22m\u001b[39m\n\n"
+    }
+  ]
+}

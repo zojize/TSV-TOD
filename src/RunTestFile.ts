@@ -33,16 +33,16 @@ export const RunTestFile = ({
     ]
     const env: Record<string, string> = {}
     let reportPath: string | undefined = undefined
+    const keep = yield* Config.boolean("KEEP").pipe(Config.withDefault(false))
 
     if (runner) {
       const path = yield* Path.Path
       const workingDirectory = yield* Config.string("PROJECT_DIRECTORY")
-      const { genId } = yield* GenId
 
+      const { genId } = yield* GenId
       const id = genId()
 
-      const dir = yield* fs.makeTempDirectoryScoped({
-        // const dir = yield* fs.makeTempDirectory({
+      const dir = yield* (keep ? fs.makeTempDirectory : fs.makeTempDirectoryScoped)({
         directory: workingDirectory,
         prefix: `.tsv-tod-tmp-${id}-`
       })
@@ -83,7 +83,9 @@ export const RunTestFile = ({
       }
     }
 
-    yield* Effect.logDebug(`${Object.entries(env).map(([k, v]) => `${k}=${v}`).join(" ")} ${cmd} ${args.join(" ")}`)
+    yield* (keep ? Effect.logInfo : Effect.logDebug)(
+      `${Object.entries(env).map(([k, v]) => `${k}=${v}`).join(" ")} ${cmd} ${args.join(" ")}`
+    )
     const vitestRunCmd = yield* CommandMake({ cmd, args, env })
 
     // Start running the command and return a handle to the running process

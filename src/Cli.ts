@@ -6,7 +6,6 @@ import * as ConfigProvider from "effect/ConfigProvider"
 import * as Effect from "effect/Effect"
 import * as Logger from "effect/Logger"
 import * as LogLevel from "effect/LogLevel"
-import * as Option from "effect/Option"
 import * as os from "node:os"
 import { GenId, genId } from "./GenId.js"
 import { RunProject } from "./RunProject.js"
@@ -40,6 +39,16 @@ const out = Options.file("out", { exists: "either" }).pipe(
   Options.withDescription("File to write the JSON report to")
 )
 
+const filter = Options.text("filter").pipe(
+  Options.optional,
+  Options.withDescription("Filter to apply to test files")
+)
+
+const keep = Options.boolean("keep").pipe(
+  Options.withDefault(false),
+  Options.withDescription("Keep temporary files (for debugging purposes)")
+)
+
 const project = Args.directory({ exists: "yes" }).pipe(
   Args.withDefault("."),
   Args.withDescription("Path to the TypeScript + Vitest project to analyze")
@@ -47,8 +56,8 @@ const project = Args.directory({ exists: "yes" }).pipe(
 
 const command = Command.make(
   "tsv-tod",
-  { project, debug, order, rounds, out },
-  ({ debug, order, out, project, rounds }) =>
+  { project, debug, order, rounds, out, filter, keep },
+  ({ debug, filter, keep, order, out, project, rounds }) =>
     Effect.gen(function*() {
       const path = yield* Path.Path
 
@@ -56,12 +65,15 @@ const command = Command.make(
       const concurrency = os.availableParallelism()
       yield* Effect.logInfo(`Analyzing project at: ${cwd} with concurrency: ${concurrency}`)
 
-      return yield* RunProject.pipe(
+      return yield* RunProject({
+        rounds,
+        order,
+        filter,
+        out
+      }).pipe(
         Effect.withConfigProvider(ConfigProvider.fromJson({
           PROJECT_DIRECTORY: cwd,
-          ORDER: order,
-          ROUNDS: rounds,
-          ...Option.isSome(out) ? { OUT_FILE: Option.getOrThrow(out) } : {}
+          KEEP: keep
         })),
         Effect.provideService(GenId, genId),
         Effect.withConcurrency(concurrency),
